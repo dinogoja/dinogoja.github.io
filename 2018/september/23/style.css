@@ -1,0 +1,33 @@
+.jumbotron {
+     margin-top:5px;
+     background-image: url("https://picsum.photos/g/2000/900");
+     background-size: cover;
+     color: black;
+}
+
+.row .card {
+	width: 18rem;
+}
+
+.card-img-top:hover {
+	filter: blur(5px);
+	-webkit-filter: blur(5px);
+	transition: all 1000ms ease-in;
+}
+
+#transf {
+	width: 350px;
+	transition: width 5s;
+}
+
+#transf:hover {
+	width: 100%;
+}
+
+h1 {
+	font-family: 'Knewave', cursive;
+	background: -webkit-linear-gradient(72deg, rgba(174,223,238,1) 0%, rgba(2,11,247,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
