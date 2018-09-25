@@ -1,0 +1,9 @@
+.jumbotron {
+    display: flex;
+    background-image: url(./img/252.jpg);
+
+    background-size:  cover;
+    height: 100vh;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
