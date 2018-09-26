@@ -1,0 +1,80 @@
+body {
+	background-color: white;
+}
+
+.jumbotron {
+	background-color: #2F4F4F;
+	height: 100vh;
+}
+
+.r1 {
+	height: 250px;
+}
+
+.b1 {
+	background-color: #708090;
+	height: 100%;
+}
+
+.b2 {
+	background-color: #696969;
+	height: 100%;
+}
+
+.b3 {
+	background-color: #A9A9A9;
+	height: 100%;
+}
+
+.r2 {
+	height: 250px;
+	background-color: #D3D3D3;
+}
+
+.whitespace {
+	height: 100px;
+	width: 100%;
+	background-color: black;
+}
+
+p {
+	color: white;
+	text-align: center;
+	font-size: 33px;
+	padding-top: 15px;
+}
+
+.hero {
+	height: 100vh;
+	width: 100%;
+	background-color: #2F4F4F;
+}
+
+.wrapper {
+	height: 500px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 50% 50%;
+	grid-template-areas: "b4 b5 b6"
+						 "r3 r3 r3"
+}
+
+.b4 {
+	background-color: #708090;
+	grid-area: b4;
+}
+
+.b5 {
+	background-color: #696969;
+	grid-area: b5;
+}
+
+.b6 {
+	background-color: #A9A9A9;
+	grid-area: b6;
+}
+
+.r3 {
+	background-color: #D3D3D3;
+	grid-area: r3;
+}
