@@ -5,6 +5,7 @@ body {
 .jumbotron {
 	background-color: #2F4F4F;
 	height: 100vh;
+	background-image: url(./275.jpg);
 
 }
 
@@ -36,6 +37,14 @@ body {
 	height: 100px;
 	width: 100%;
 	background-color: black;
+
+}
+
+h1 {
+	color:white;
+	text-align:center;
+	font-size: 66px;
+	font-family: serif;
 }
 
 p {
@@ -43,12 +52,16 @@ p {
 	text-align: center;
 	font-size: 33px;
 	padding-top: 15px;
+	text-decoration: underline;
+  text-decoration-color: red;
 }
 
 .hero {
-	height: 100vh;
+	height: 150vh;
 	width: 100%;
 	background-color: #2F4F4F;
+	background-image: url(./1.png);
+
 }
 
 .wrapper {
@@ -63,16 +76,19 @@ p {
 .b4 {
 	background-color: #708090;
 	grid-area: b4;
+	background-image: url(./369.jpg);
 }
 
 .b5 {
 	background-color: #696969;
 	grid-area: b5;
+	background-image: url(./369.jpg);
 }
 
 .b6 {
 	background-color: #A9A9A9;
 	grid-area: b6;
+	background-image: url(./369.jpg);
 }
 
 .r3 {
