@@ -1,6 +1,4 @@
-body {
-	background-color: #4574ff;
-}
+
 
 .jumbotron {
 	background-color: #000;
@@ -17,7 +15,7 @@ h1 {
 }
 
 p {
-	color: white;
+	color: grey;
 	text-align: center;
 	font-size: 33px;
 	padding-top: 15px;
