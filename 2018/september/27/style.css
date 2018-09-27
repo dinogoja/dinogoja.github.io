@@ -1,0 +1,26 @@
+body {
+	background-color: #4574ff;
+}
+
+.jumbotron {
+	background-color: #000;
+	height: 100vh;
+
+
+}
+
+h1 {
+	color:white;
+	text-align:center;
+	font-size: 66px;
+	font-family: serif;
+}
+
+p {
+	color: white;
+	text-align: center;
+	font-size: 33px;
+	padding-top: 15px;
+	text-decoration: underline;
+  text-decoration-color: red;
+}
