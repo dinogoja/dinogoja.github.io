@@ -3,8 +3,6 @@
 .jumbotron {
 	background-color: #000;
 	height: 100vh;
-
-
 }
 
 h1 {
@@ -21,4 +19,12 @@ p {
 	padding-top: 15px;
 	text-decoration: underline;
   text-decoration-color: red;
+}
+
+.test p {
+	font-family: serif;
+	font-size: 18px;
+	padding: 0 0;
+	text-decoration: none;
+	text-decoration: none;
 }
