@@ -28,14 +28,15 @@
 	color: white;
 }
 
-.bg-2 { 
-      background-color: #474e5d; 
+.bg-2 {
+      background-color: #474e5d;
       color: #ffffff;
 }
 
-.bg-3 { 
-      background-color: #ffffff; 
+.bg-3 {
+      background-color: #ffffff;
       color: #555555;
+			background-image: url("1.png");
 }
 
 .img-circle {
