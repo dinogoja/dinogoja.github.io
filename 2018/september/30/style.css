@@ -1,3 +1,16 @@
 .css-selector {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', serif;
+}
+
+h1 {
+  font-family: 'Lato', serif;
+  font-size: 150px;
+}
+
+.jumbotron {
+
+  
+	height: 100vh;
+	background-image: url('./1.png');
+
 }
