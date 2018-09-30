@@ -7,10 +7,16 @@ h1 {
   font-size: 150px;
 }
 
+
+body {
+  font-family: 'Lato', serif;
+  font-size: 80px;
+}
+
 .jumbotron {
 
-  
+
 	height: 100vh;
-	background-image: url('./1.png');
+	background-image: url(./1.png);
 
 }
