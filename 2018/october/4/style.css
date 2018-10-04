@@ -15,6 +15,16 @@ h1 {
 	font-weight: 700;
 	text-shadow:0 1px 4px rgba(0,0,0,.2);
 	text-align:center;
+    animation-name: ops;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ops {
+    10% {transform: rotate(10deg);}
+    50% {color: blue;}
+    60% {transform: rotate(-10deg);}
+    100% {color: red;}
 }
 
 form {
