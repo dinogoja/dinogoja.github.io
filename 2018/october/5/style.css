@@ -1,0 +1,77 @@
+/*
+transition-timing-function
+ease - the animation starts slowly, then accelerates quickly.
+ease-in - starts slowly, then accelerates, and stops abruptly.
+ease-out - starts quickly, but decelerates to a stop.
+ease-in-out - similar to ease, but with more subtle acceleration and deceleration.
+linear - constant speed throughout the animation; often best for color or opacity changes.
+*/
+
+.div {
+	margin: 40px 50px;
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+}
+
+.box2:hover {
+	transition: width 3s;
+	width: 250px;
+  -webkit-box-shadow: 10px 0 0 #F0F0F0, 20px 0 0 #000, 30px 0 0 #F0F0F0, 0 10px 0 #F0F0F0, 10px 10px 0 #000, 20px 10px 0 #F0F0F0, 30px 10px 0 #000, 0 20px 0 #000, 10px 20px 0 #F0F0F0, 20px 20px 0 #000, 30px 20px 0 #F0F0F0, 0 30px 0 #F0F0F0, 10px 30px 0 #000, 20px 30px 0 #F0F0F0, 30px 30px 0 #000, 16px -13px 22px 5px rgba(0,0,0,0);
+box-shadow: 10px 0 0 #F0F0F0, 20px 0 0 #000, 30px 0 0 #F0F0F0, 0 10px 0 #F0F0F0, 10px 10px 0 #000, 20px 10px 0 #F0F0F0, 30px 10px 0 #000, 0 20px 0 #000, 10px 20px 0 #F0F0F0, 20px 20px 0 #000, 30px 20px 0 #F0F0F0, 0 30px 0 #F0F0F0, 10px 30px 0 #000, 20px 30px 0 #F0F0F0, 30px 30px 0 #000, 16px -13px 22px 5px rgba(0,0,0,0);
+}
+}
+
+.box3 {
+	transform: rotate(25deg);
+  -webkit-box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 16px -13px 22px 5px rgba(0,0,0,0);
+box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 16px -13px 22px 5px rgba(0,0,0,0);
+background: #ECEFCF;
+}
+
+.box4 {
+	transform: rotate(25deg);
+	transform-origin: 75% 205%;
+  -webkit-box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 16px -13px 22px 5px rgba(0,0,0,0);
+box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 16px -13px 22px 5px rgba(0,0,0,0);
+background: #9400D3;
+}
+
+.box5 {
+	transform: translate(100px, 50px);
+  -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px -7px 27px 1px #8E5CFF, 32px -13px 22px 5px rgba(0,0,0,0);
+  box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px -7px 27px 1px #8E5CFF, 32px -13px 22px 5px rgba(0,0,0,0);
+}
+
+.box6 {
+	transform: skew(25deg);
+  -webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 32px 5px 15px 5px rgba(0,0,0,0);
+  box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 32px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.box7 {
+	transform: scale(0.5, 0.5);
+  -webkit-box-shadow: 32px 5px 15px 5px #000000;
+  box-shadow: 32px 5px 15px 5px #000000;
+}
+
+.box8 {
+	transform: rotate(15deg) scale(0.5, 0.5);
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+h4 {
+	animation-name: cc;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	font-size: 46px;
+}
+
+@keyframes cc {
+	10% {color: red;}
+	25% {color: green;}
+	50% {color: yellow;}
+	75% {color: hotpink;}
+	90% {color: blue;}
+}
