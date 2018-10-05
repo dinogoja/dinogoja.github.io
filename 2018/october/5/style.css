@@ -1,0 +1,60 @@
+/*
+transition-timing-function
+ease - the animation starts slowly, then accelerates quickly.
+ease-in - starts slowly, then accelerates, and stops abruptly.
+ease-out - starts quickly, but decelerates to a stop.
+ease-in-out - similar to ease, but with more subtle acceleration and deceleration.
+linear - constant speed throughout the animation; often best for color or opacity changes.
+*/
+
+.div {
+	margin: 40px 50px;
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+}
+
+.box2:hover {
+	transition: width 3s;
+	width: 250px;
+}
+
+.box3 {
+	transform: rotate(25deg);
+}
+
+.box4 {
+	transform: rotate(25deg);
+	transform-origin: 75% 205%;
+}
+
+.box5 {
+	transform: translate(100px, 50px);
+}
+
+.box6 {
+	transform: skew(25deg);
+}
+
+.box7 {
+	transform: scale(0.5, 0.5);
+}
+
+.box8 {
+	transform: rotate(15deg) scale(0.5, 0.5);
+}
+
+h4 {
+	animation-name: cc;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	font-size: 46px;
+}
+
+@keyframes cc {
+	10% {color: red;}
+	25% {color: green;}
+	50% {color: yellow;}
+	75% {color: hotpink;}
+	90% {color: blue;}
+}
