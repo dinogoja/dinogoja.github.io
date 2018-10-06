@@ -65,3 +65,11 @@ h4 {
 	75% {color: hotpink;}
 	90% {color: blue;}
 }
+
+body {
+  background: url('./2.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
