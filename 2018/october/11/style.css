@@ -77,6 +77,6 @@ body {
 }
 .card .box ul li:hover a {
     color:#e91e63;
-    transform:rotateY(360deg);
+    transform:rotateY(1080deg);
     }
     
