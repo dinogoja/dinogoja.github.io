@@ -16,6 +16,17 @@ body {
 
   }
 
+  #cover2 {
+    background: #222 url('./14.png') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+  }
+
 #cover-caption {
   width: 100%;
 }
