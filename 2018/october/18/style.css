@@ -1,0 +1,15 @@
+.r1,
+.r2 {
+	height: 300px;
+	background-color: #68B7D6;
+}
+
+#hole {
+	background-color: white;
+	overflow: hidden;
+}
+
+.bottom {
+	font-family: 'Charmonman', cursive;
+	font-size: 18px;
+}
