@@ -1,0 +1,30 @@
+h1 {
+	text-align: center;
+}
+
+p {
+	font-family: 'Charmonman', cursive;
+	font-size: 18px;
+}
+
+.center {
+	justify-content: center;
+	display: flex;
+}
+
+.footer {
+	text-align: center;
+}
+
+.i1 {
+	color: red;
+}
+
+.i2 {
+	color: green;
+}
+
+.i3 {
+	color: blue;
+}
+
