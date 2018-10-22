@@ -1,0 +1,56 @@
+.header {
+	margin: 0 0;
+	padding: 0 0;
+}
+
+.profile {
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    position: relative;
+	bottom: 75px;
+	z-index: 1;
+}
+
+.diocan {
+	width: 100%;
+}
+
+.fab {
+	color: rgb(30, 144, 255);
+}
+
+.second {
+	height: 90px;
+	background-color: white;
+}
+
+.left,
+.card,
+.right {
+	background-color: lightgrey;
+}
+
+.center {
+	background-color: white;
+}
+
+.imgt {
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+	z-index: 1;
+	max-width: 48px;
+	max-height: 48px;
+}
+
+.tweet {
+	display: flex;
+	margin-top: 10px;
+}
+
+.tweett {
+	margin-left: 5px;
+}
