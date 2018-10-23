@@ -1,0 +1,52 @@
+.container {
+  background: rgb(0,132,255);
+  padding: 5em;
+  color: #fff;
+}
+
+
+.container div {
+  animation: yourAnimation 3s infinite 0s linear;
+}
+
+@keyframes yourAnimation{
+    0%{
+        transform: rotate(xx);
+        font-size: 28px;
+        }
+    3%{
+        transform: rotate(xx);
+        color: #545454;
+        font-size: 28px;
+        }
+    13%{
+        transform: rotate(xx);
+        color: #fgfgfg;
+        font-size: 38px;
+        }
+    28%{
+        transform: rotate(xx);
+        color: #25fd25;
+        font-size: 48px;
+        }
+    40%{
+        transform: rotate(xx);
+        color: #acacac;
+        font-size: 58px;
+        }
+    55%{
+        transform: rotate(xx);
+        color: #0202;
+        font-size: 68px;
+        }
+    68%{
+        transform: rotate(xx);
+        color: #fbfb;
+        font-size: 78px;
+        }
+    78%{
+        transform: rotate(xx);
+        color: #bfbf;
+        font-size: 88px;
+        }
+}
