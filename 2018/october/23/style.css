@@ -6,7 +6,7 @@
 
 
 .container div {
-  animation: yourAnimation 3s infinite 0s linear;
+  animation: yourAnimation 3s forwards 0s linear;
 }
 
 @keyframes yourAnimation{
