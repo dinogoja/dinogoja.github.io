@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X=UA=Compatible" content="ie=edge">
+ <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+ <link rel="stylesheet" href="./style.css">
+ <title>Material Design for Web</title>
+</head>
+<body>
+
+  <h1>Experimenting With Material Design Components for Web</h1>
+
+<button class="foo-button mdc-button">Button</button>
+
+<script>
+mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));
+</script>
+
+
+<div class="mdc-card">
+  Simple
+</div>
+
+<div class="mdc-grid-list">
+  <ul class="mdc-grid-list__tiles">
+    <li class="mdc-grid-tile">
+      <div class="mdc-grid-tile__primary">
+        <img class="mdc-grid-tile__primary-content" src="4.jpg" />
+      </div>
+      <span class="mdc-grid-tile__secondary">
+        <span class="mdc-grid-tile__title">Title</span>
+      </span>
+    </li>
+    <li class="mdc-grid-tile">
+      <div class="mdc-grid-tile__primary">
+        <img class="mdc-grid-tile__primary-content" src="./11.png" />
+      </div>
+      <span class="mdc-grid-tile__secondary">
+        <span class="mdc-grid-tile__title">Title</span>
+      </span>
+    </li>
+  </ul>
+</div>
+
+
+<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+</body>
+</html>
