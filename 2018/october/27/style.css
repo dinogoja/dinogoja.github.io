@@ -124,7 +124,7 @@
 .header-blue .navbar .dropdown-menu > li > a:focus, .header-blue .navbar .dropdown-menu > li > a{
   line-height:2;
   font-size:14px;
-  color:#37434d;
+  color: black;
 }
 
 .header-blue .navbar .dropdown-menu > li > a:focus, .header-blue .navbar .dropdown-menu > li > a:hover{
@@ -269,4 +269,8 @@
   right:-60%;
   transform:rotate(-19deg);
   opacity:0.2;
+}
+
+.transp {
+  filter: opacity(0.1)
 }
