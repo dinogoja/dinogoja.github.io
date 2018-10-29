@@ -1,0 +1,138 @@
+button {
+  position: relative;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0 15px 0 0;
+}
+ 
+ 
+/* =====================
+   FACEBOOK STYLE BUTTON
+   ===================== */
+ 
+.final__facebook-style-btn {
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 6px 12px;
+}
+ 
+.final__facebook-style-dark {
+  -moz-box-shadow:    inset 0px 1px 0px 0px #4d73bf;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #4d73bf;
+  box-shadow:         inset 0px 1px 0px 0px #4d73bf;
+  background: #4267b2;
+  border: 1px solid #4267b2;
+  color: #fff;
+  text-shadow: 0 1px 0px #3359a5;
+}
+ 
+  .final__facebook-style-dark:hover {
+    background: #2b54a7;
+  }
+ 
+  .final__facebook-style-dark:active {
+    background: #1d4698;
+    border-color: #1d4698;
+  }
+ 
+ 
+.final__facebook-style-light {
+  background: #f6f7f9;
+  border: 1px solid #ced0d4;
+  border-radius: 2px;
+  color: #4b4f56;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 6px 12px;
+}
+ 
+  .final__facebook-style-light:hover {
+    background: #e9ebee;
+  }
+ 
+  .final__facebook-style-light:active {
+    background: #d8dade;
+    border-color: #d8dade;
+  }
+ 
+ 
+/* =====================
+   3D BUTTON 1
+   ===================== */
+ 
+.final__btn-3d-1 {
+  position: relative;
+  background: orangered;
+  border: none;
+  color: white;
+  padding: 15px 24px;
+  font-size: 1.4rem;
+  box-shadow: -6px 6px 0 hsl(16, 100%, 30%);
+  outline: none;
+}
+ 
+  .final__btn-3d-1:hover {
+    background: hsl(16, 100%, 45%);
+  }
+ 
+  .final__btn-3d-1:active {
+    background: hsl(16, 100%, 40%);
+    top: 3px;
+    left: -3px;
+    box-shadow: -3px 3px 0 hsl(16, 100%, 30%);
+  }
+ 
+  .final__btn-3d-1::before {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 0;
+    width: 0;
+    /* border width needs to be size of the element's box shadow */
+    border: solid 6px transparent;
+ 
+    /* border width needs to be size of the element's box shadow */
+    border-right: solid 6px hsl(16, 100%, 30%);
+ 
+    /* no width for left, makes measurements easier */
+    border-left-width: 0px;
+ 
+    background: none;
+    top: 0px;
+ 
+    /* needs to be the same size as border width */
+    left: -6px;
+  }
+ 
+  .final__btn-3d-1::after {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 0;
+    width: 0;
+    border: solid 6px transparent;
+    border-top: solid 6px hsl(16, 100%, 30%);
+    border-bottom-width: 0px;
+    background: none;
+    right: 0;
+    bottom: -6px;
+  }
+ 
+    .final__btn-3d-1:active::before {
+      border: solid 3px transparent;
+      border-right: solid 3px hsl(16, 100%, 30%);
+      border-left-width: 0px;
+      left: -3px;
+    }
+ 
+    .final__btn-3d-1:active::after {
+      border: solid 3px transparent;
+      border-top: solid 3px hsl(16, 100%, 30%);
+      border-bottom-width: 0px;
+      bottom: -3px;
+    }
+ 
+ footer {
+     margin-top: 50px;
+ }
