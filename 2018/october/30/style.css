@@ -1,0 +1,15 @@
+
+@keyframes yourAnimation{
+    0%{
+        }
+    15%{
+        transform: rotate(180deg);
+        }
+    30%{
+        transform: rotate(80eg);
+        }
+}
+
+.container div {
+    animation: yourAnimation 3s infinite 0s linear;
+}
