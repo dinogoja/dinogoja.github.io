@@ -5,6 +5,7 @@
   --light-salmon: #FFC8B4;
   --white: #FFFFFF;
   --black: #171314;
+  --yellow: #ffff00;
 }
 
 body {
@@ -51,6 +52,10 @@ background: linear-gradient(138deg, rgba(113,60,70,1) 0%, rgba(255,200,180,1) 10
 
 .black {
   background: var(--black);
+}
+
+.yellow {
+  background: var(--yellow);
 }
 
 .one {
@@ -302,7 +307,7 @@ background: linear-gradient(138deg, rgba(113,60,70,1) 0%, rgba(255,200,180,1) 10
   grid-row: 38 / span 3;
   width: 60px;
     height: 30px; /* as the half of the width */
-    background-color: var(--salmon);
+    background-color: var(--yellow);
     border-top-left-radius: 180px;
     border-top-right-radius: 180px;
     border-bottom: 0;
@@ -374,5 +379,16 @@ background: linear-gradient(138deg, rgba(113,60,70,1) 0%, rgba(255,200,180,1) 10
     background-color: var(--maroon);
     border-top-left-radius: 180px;
     border-top-right-radius: 180px;
+    border-bottom: 0;
+}
+
+.fifty {
+  grid-column: 8;
+  grid-row: 11;
+  width: 80px;
+    height: 60px; /* as the half of the width */
+    background-color: var(--yellow);
+    border-top-left-radius: 160px;
+    border-top-right-radius: 160px;
     border-bottom: 0;
 }
