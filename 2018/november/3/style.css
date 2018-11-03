@@ -21,9 +21,21 @@ h2 {
 p {
   color: whitesmoke;
   font-size: 33px;
+
 }
 
 .container {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.container-fluid {
+
+}
+
+
+
+.products {
+  color: whitesmoke;
+  font-size: 70px;
 }
