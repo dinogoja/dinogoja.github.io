@@ -1,8 +1,9 @@
-#intro {
-  background-color: #000000;
+section {
+  background-color: #000;
 }
 
 h1 {
   font-family: 'EB Garamond', serif;
   font-size: 99px;
+  color: whitesmoke;
 }
