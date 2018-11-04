@@ -182,3 +182,17 @@ h1 {
 ::selection {
     background: #b4fdff;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 20px;
+  height: 300px;
+}
