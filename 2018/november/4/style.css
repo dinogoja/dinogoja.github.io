@@ -6,6 +6,8 @@ body {
     text-align: center;
     text-transform: uppercase;
     margin: 0;
+  
+    
 }
 
 body:before {
@@ -52,6 +54,13 @@ h1 {
 
 .title h1 {
     background: -webkit-linear-gradient(rgb(255, 18, 18) 30%, rgb(255, 215, 38));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+  .title h2 {
+    background: -webkit-linear-gradient(rgb(18, 255, 18) 30%, rgb(255, 38, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
