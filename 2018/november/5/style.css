@@ -1,0 +1,8 @@
+.intro {
+    background-image: url('https://source.unsplash.com/1280x720');
+    background-size: cover;
+    padding: 10vh 0;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+}
