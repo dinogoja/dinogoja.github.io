@@ -1,8 +1,17 @@
 .intro {
     background-image: url('https://source.unsplash.com/1280x720');
     background-size: cover;
-    padding: 10vh 0;
+    padding: 50vh 0;
     color: #ffffff;
     display: flex;
     justify-content: flex-end;
+}
+
+h1 {
+    flex-basis: 100%;
+    padding: 0 2em;
+    @media (min-width: 40rem);
+    {
+        flex-basis: 50%;
+    }
 }
