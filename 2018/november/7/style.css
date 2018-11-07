@@ -126,11 +126,6 @@ p {
 }
 
 
-.r5 {
-  grid-area: r5;
-  display: flex;
-  justify-content: space-around;
-}
 
 footer {
   grid-area: r5;
