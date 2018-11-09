@@ -53,4 +53,36 @@ display: flex;
     -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   }
+
+.ciao {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
   
+.hard-grad {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(
+      -45deg
+      , rgba(255, 136, 152, .5) 0%
+      , rgba(255, 136, 152, .5) 50%
+      , rgba(255, 199, 153, .5) 50%
+      , rgba(255, 199, 153, .5) 100% 
+    );
+  }
+  
+.hard-grad-2 {
+    position: absolute;
+    width:500px;
+    height:500px;
+    background: linear-gradient(
+      45deg
+      , rgba(100, 199, 204, .5) 0%
+      , rgba(100, 199, 204, .5) 50%
+      , rgba( 18, 136, 152, .5) 50%
+      , rgba( 18, 136, 152, .5) 100% 
+    );
+  }
