@@ -1,0 +1,46 @@
+body {
+    background: #000;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    color: yellow;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  p {
+    font-size: 4vh;
+  }
+  
+  .intro {
+    font-size: 5vh;
+    display: flex;
+  }
+  
+  img {
+    clip-path: polygon(18% 25%, 71% 0, 95% 81%, 25% 82%);
+  }
+  
+  .section2 {
+    background: yellow;
+  }
+  
+  .section3 {
+    background: purple;
+    margin-left: 0;
+    padding: 30px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .column img {
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  
