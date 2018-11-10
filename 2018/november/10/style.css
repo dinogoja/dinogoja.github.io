@@ -58,3 +58,9 @@ img {
   box-shadow: 40px 40px 20px purple;
 }
 
+.song2:hover {
+  cursor: help;
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  transition: 2s;
+}
