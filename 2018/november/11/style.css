@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+html,
+body {
+  background: black;
+  padding: 20px;
+}
+
+.header {
+  background: black;
+}
+
+.box {
+  background-image: repeating-linear-gradient(
+    45deg,
+    red,
+    red 20px,
+    whitesmoke 30px
+  );
+  box-shadow: 10px 10px whitesmoke;
+  padding: 20px;
+}
+
+.section1 {
+  padding: 10px;
+  margin: 20px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 12vh;
+  color: whitesmoke;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 8vh;
+  color: whitesmoke;
+}
+
+p {
+  color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 5px;
+}
+
+.column {
+  max-width: 100vh;
+}
+
+.boxToday {
+}
+
+img {
+  box-shadow: 10px 10px whitesmoke;
+}
