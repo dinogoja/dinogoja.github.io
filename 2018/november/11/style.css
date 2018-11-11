@@ -54,9 +54,22 @@ p {
   max-width: 100vh;
 }
 
-.boxToday {
-}
-
 img {
   box-shadow: 10px 10px whitesmoke;
 }
+
+.boh {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px 0px 27px 29px rgba(249,251,252,0.5);
+  margin: 95px;
+}
+
+.boh1 {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px -31px 27px 29px rgba(249,251,252,0.5);
+  margin: 95px;
+}
+
+
