@@ -11,6 +11,19 @@ background: #eee;
 padding: 1em;
 }
 
-.container > div:nth-child(odd) {
-    background: #ddd;
+.container > .intro {
+    background: repeating-linear-gradient(15deg, black, yellow);
+    font-size: 9em;
+}
+
+.container > .cr {
+    background: blue;
+    color: whitesmoke;
+    font-size: 6em;
+}
+
+.container > .df {
+    background: purple;
+    color: whitesmoke;
+    font-size: 4em;
 }
