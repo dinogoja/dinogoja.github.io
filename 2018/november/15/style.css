@@ -61,6 +61,7 @@ section {
     color: whitesmoke;
     text-decoration: none;
     padding: 1em 2em;
+    border-radius: 5%;
   }
   
   .button:hover {
