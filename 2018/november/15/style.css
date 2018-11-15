@@ -54,3 +54,15 @@ section {
   background-image: url(https://source.unsplash.com/user/erondu/1600x900);
   color: whitesmoke;
 }
+
+.button {
+    display: inline-block;
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 1em 2em;
+  }
+  
+  .button:hover {
+    background-color: grey;
+  }
