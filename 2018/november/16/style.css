@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Codystar");
+
+body {
+  margin: 0;
+  font-family: "Codystar", sans-serif;
+  background: #eee;
+}
+
+section {
+  padding: 200px 0;
+}
+
+.container {
+  background: #eee;
+  width: 70%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 86px;
+  font-family: "Codystar", sans-serif;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: "Codystar", sans-serif;
+}
+
+.intro {
+  background-image: url(https://source.unsplash.com/user/erondu/1600x900);
+  margin-bottom: 200px;
+}
+
+.etro {
+  background-image: url(https://source.unsplash.com/1600x900);
+  margin-bottom: 200px;
+}
+
+.end {
+  background-image: url(https://source.unsplash.com/1500x900);
+}
+
+div {
+  padding: 30px;
+  box-shadow: 10px 10px black;
+}
+
+div:hover {
+    background: black;
+    color: whitesmoke;
+  }
