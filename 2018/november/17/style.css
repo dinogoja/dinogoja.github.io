@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,700|UnifrakturCook:700');
+
+body {
+    background: #eeeeee;
+    margin: 0;
+
+}
+
+section {
+    padding: 100px 0;
+    
+}
+
+.intro {
+    background-image: url(https://source.unsplash.com/collection/1427766/1600x900);
+    
+  }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.start {
+    background: #eeeeee;
+    padding: 30px;
+    opacity: 0.6;
+    
+}
+
+
+.second {
+    background: silver;
+    margin:50px;
+      
+
+}
+
+.container2 {
+    width: 100%;
+    min-height: 100%;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+
+
+}
+
+h1 {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 5em;
+    margin: 0;
+    text-shadow: 
+}
+
+h1:hover {
+    text-shadow: 5px 5px 2px grey;
+}
+
+h2 {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 3em;
+    margin: 0;
+}
+
+h2:hover {
+    text-shadow: 5px 5px 2px grey;
+}
+
+
+p {
+    font-family: 'Oswald', sans-serif;
+}
+
+.was {
+    background: black;
+    color: whitesmoke;
+    padding: 10px;
+    
+}
+
+.was:hover {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.das {
+    background: whitesmoke;
+    color: black;
+    padding: 10px;
+    
+}
+
+.das:hover {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.mann {
+    background: black;
+    color: whitesmoke;
+    padding: 10px;
+    
+}
+
+.mann:hover {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.frau {
+    background: whitesmoke;
+    color: black;
+    padding: 10px;
+    
+    
+}
+
+.frau:hover {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.container3 {
+   color: whitesmoke;
+    padding: 150px;
+    min-height: 100px;
+    background-image: url(https://source.unsplash.com/collection/1427766/1600x900);
+    
+    
+    
+}
+
+.container3:hover {
+    -moz-transform: skew(29deg, 0deg);
+    -webkit-transform: skew(29deg, 0deg);
+    -o-transform: skew(29deg, 0deg);
+    -ms-transform: skew(29deg, 0deg);
+    transform: skew(29deg, 0deg);
+}
