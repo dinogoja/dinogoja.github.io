@@ -11,25 +11,49 @@
   <body>
     <section class="one">
       <h1 id="js1">Section one</h1>
-      <button type="button" onclick="mioCambio()">JS che non funziona</button>
+      <p id="demo"></p>
+      <button id="btnj">JS che funziona</button>
       <div class="one__img">
         <img src="https://source.unsplash.com/user/mrbw/360x500" />
       </div>
     </section>
 
     <section class="two">
-      <h1>Section two</h1>
+      <h1 onmouseover="mOver(this)" onmouseout="mOut(this)">Passa col mouse</h1>
       <div class="two__img">
         <img src="https://source.unsplash.com/user/5tep5/360x600" />
       </div>
     </section>
 
     <section class="three">
-      <h1>Section three</h1>
+      <h1 onmousedown="mDown(this)" onmouseup="mUp(this)">Tienimi premuto</h1>
       <div class="three__img">
         <img src="https://source.unsplash.com/user/fabulu75/460x900" />
       </div>
     </section>
-    <script type="text/javascript" src="script.js"></script>
+  <script>
+      document.getElementById('btnj').onclick = saluta;
+      function saluta() {
+      document.getElementById('js1').innerHTML = 'Ciao!';
+      };
+
+      function mOver(obj) {
+        obj.innerHTML = "Bella pagina davvero!"
+      };
+      function mOut(obj) {
+        obj.innerHTML = "Passa col mouse"
+      };
+
+      function mDown(obj) {
+        obj.style.color = "red";
+        obj.innerHTML = "Rilasciami!";
+      };
+
+      function mUp(obj) {
+        obj.style.color = "#fffffb";
+        obj.innerHTML = "Grazie!";
+      };
+
+  </script>
   </body>
 </html>
