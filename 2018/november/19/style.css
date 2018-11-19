@@ -1,0 +1,147 @@
+body {
+  background: url('https://i.imgur.com/MJAkxbh.png');
+}
+
+div {
+  margin-left: 50px;
+}
+
+.d1:hover {
+  transform: scale(1.1);
+}
+
+.d2:hover {
+  transform: scale(1.1);
+}
+
+.d3:hover {
+  transform: scale(1.1);
+}
+
+.d1 {
+  border-radius: 20px;
+  height: 400px;
+  margin: 50 auto;
+  width: 50%;
+  margin-bottom: 50px;
+  background: repeating-linear-gradient(
+    45deg,
+    yellow 0px,
+    yellow 40px,
+    black 40px,
+    black 80px
+  );
+}
+
+.d2 {
+  border-radius: 20px;
+  height: 400px;
+  margin: 50 auto;
+  width: 50%;
+  margin-bottom: 50px;
+  background: repeating-linear-gradient(
+    90deg,
+    yellow 0px,
+    orange 40px,
+    orangered 40px,
+    red 80px
+  );
+}
+
+.d3 {
+  border-radius: 20px;
+  height: 400px;
+  width: 50%;
+  margin: 50 auto;
+  margin-bottom: 50px;
+  background: repeating-linear-gradient(
+    0deg,
+    red 0px,
+    green 40px,
+    blue 80px
+  );
+}
+
+.d4 {
+  border-radius: 20px;
+  height: 400px;
+  width: 50%;
+  margin: 50 auto;
+  margin-bottom: 50px;
+  background: repeating-radial-gradient(
+    ellipse farthest-corner,
+  red, black 5%, blue 5%, green 10%);
+}
+
+.d5 {
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 25px 10px 0px 0px blue; 
+}
+
+.d6 {
+  position: relative;
+  height: 150px;
+  width: 100%;
+}
+
+.heart {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  transform: rotate(-45deg);
+}
+
+.heart::after {
+  background-color: red;
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0px;
+  left: 25px;
+}
+
+.heart::before {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: -25px;
+  left: 0px;
+}
+
+.btn1 {
+  border-radius: 5px;
+  color: white;
+  background-color: #0F5897;
+  padding: 5px 10px 8px 10px;
+}
+
+.btn1:hover {
+  animation-name: bgc;
+  animation-duration: 700ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bgc {
+  100% {
+    background-color: #4791d0;
+  }
+}
