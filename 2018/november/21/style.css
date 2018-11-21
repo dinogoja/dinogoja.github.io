@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 100px;
+}
+
+
+.one {
+    background: #eeeeee;
+}
+
+.two {
+    background: yellowgreen;
+}
+
+
+.three {
+    background: goldenrod;
+}
