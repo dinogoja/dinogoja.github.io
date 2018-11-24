@@ -1,0 +1,46 @@
+:root {
+    --gradient-light: linear-gradient(
+      160deg,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.75)
+    );
+    --gradient-dark: linear-gradient(
+      145deg,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.25)
+    );
+    --gradient-arcobaleno: linear-gradient(
+      #40e0d0,
+      #ff8c00,
+      #ff0080
+    );
+  }
+  
+  body {
+    background-color: #dddddd;
+    color: #333333;
+    font-family: sans-serif;
+    font-size: 1.125;
+    line-height: 1.6;
+    min-height: 110vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  section {
+    padding: 200px;
+  }
+  .one {
+    background: var(--gradient-dark);
+  }
+  
+  .two {
+    background: var(--gradient-light);
+  }
+  
+  .three {
+    background: var(--gradient-arcobaleno);
+  }
+  
