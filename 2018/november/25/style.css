@@ -1,0 +1,45 @@
+#main {
+    background-color: lightgrey;
+}
+
+#title {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#img-div {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    padding-top: 15px;
+}
+
+#image {
+    max-width: 70%;
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
+#img-caption {
+    display: block;
+    margin: auto;
+    max-width: 70%;
+    margin-top: 10px;
+}
+
+#tribute-info {
+    text-align: center;
+}
+
+#tribute-info ul {
+    display: inline-block;
+}
+
+ul {
+    text-align: left;
+}
+
+#bs {
+    margin-top: -2px;
+}
