@@ -85,11 +85,12 @@ button:hover:after {
 
 img {
   max-width: 300px;
+  filter:grayscale(100%);
 }
 
 img:hover {
   color: #222222;
-
+  filter:grayscale(0%);
   transform: scale(1.5);
   transition: 0.9s ease;
 }
