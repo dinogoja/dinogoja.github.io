@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Ewert");
+
+body {
+  background: #222222;
+  margin: 20px;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1);
+  font-size: 7em;
+  font-family: "Ewert", cursive;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.6);
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1);
+  font-size: 3em;
+
+  margin-top: 0;
+}
+
+.intro {
+  text-align: center;
+}
+
+button {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  width: 350px;
+  z-index: 1;
+  border: 2px solid rgb(146, 119, 74);
+  color: rgb(146, 119, 74);
+  background: transparent;
+  font-size: 16px;
+  border-radius: 0px;
+  padding: 0 80px;
+  line-height: 52px;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+button::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -50%;
+  border-right: 60px solid black;
+  border-bottom: 60px solid transparent;
+  background: rgb(146, 119, 74);
+  z-index: -1;
+  color: #409dd4;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+button:hover {
+  color: black;
+}
+
+button:hover:after {
+  left: 0;
+  width: 85%;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 30px;
+  padding: 100px;
+  text-align: center;
+}
+
+img {
+  max-width: 300px;
+}
+
+img:hover {
+  color: #222222;
+
+  transform: scale(1.5);
+  transition: 0.9s ease;
+}
+
+.col-1:hover {
+  color: #222222;
+}
