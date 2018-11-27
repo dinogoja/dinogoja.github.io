@@ -84,6 +84,7 @@ nav a {
   width: 90%;
   margin-top: 18px;
   text-align: center;
+  
 }
 
 /* Content Button */
@@ -132,4 +133,11 @@ ul.nutrition li {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 2px;
+}
+
+.footer {
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+  font-weight: 100;
+  line-height: 34px;
 }
