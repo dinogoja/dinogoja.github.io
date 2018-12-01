@@ -13,3 +13,7 @@ h1 {
     font-size: 6em;
     font-family: 'Helvetica', sans-serif;
 }
+
+ul {
+    list-style: none;
+}
