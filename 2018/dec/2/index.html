@@ -55,5 +55,82 @@
     </main>
     <aside></aside>
     <footer></footer>
+    <h1 id="title">Survey</h1>
+  <section>
+    <p id="description">this is the goal-> https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-survey-form</p>
+    <br /><p>la base c'e ora bisogna "solo" sistemare</p>
+    <form id="survey-form">
+      <div class="row">
+        <div class="label">
+          <label for="name" id="name-label">* Name</label>
+        </div>
+        <div class="other">
+          <input id="name" type="text" placeholder="metti il tuo nome" class="field" required/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="label">
+          <label for="email" id="email-label">* Email</label>
+        </div>
+        <div class="other">
+          <input id="email" type="email" name="email" placeholder="metti la mail" class="field" required/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="label">
+          <label for="age" id="number-label">* Age</label>
+        </div>
+        <div class="other">
+          <input id="number" type="number" id="age" min="3" max="125" placeholder="quanti hanni ai" class="field" required/>
+        </div>
+      </div>
+      <div class="r4">
+        <div class="label">
+          <label for="vita">Che fai nella vita?</label>
+        </div>
+        <div class="other">
+          <select id="dropdown" id="vita" class="dropdown">
+            <option disabled value="scegli">Scegli</option>
+            <option value="nulla">nulla facente</option>
+            <option value="mulo">gran lavoratore</option>
+          </select>
+        </div>
+      </div>
+      <div class="r5">
+        <div class="label">
+          <label>Sei contento di cio?</label>
+        </div>
+        <div class="other">
+          <ul>
+            <li><label><input name="radio-buttons" type="radio" value="1" class="star"></label>certoanemte no</li>
+            <li><label><input name="radio-buttons" type="radio" value="2" class="star"></label>manco pe scherzo</li>
+            <li><label><input name="radio-buttons" type="radio" value="3" class="star"></label>mi prendi per il culo?</li>
+          </ul>
+        </div>
+      </div>
+      <div class="r6">
+        <div class="label">
+          <label for="preferenze">Cosa ti piace</label>
+        </div>
+        <div class="other">
+          <ul id="preferenze">
+            <li><label><input value="1" type="checkbox"></label>Dormire</li>
+            <li><label><input value="2" type="checkbox"></label>Bere</li>
+            <li><label><input value="3" type="checkbox"></label>Mangiare</li>
+          </ul>
+        </div>
+      </div>
+      <div class="r7">
+        <div class="label">
+          <label for="commenti">Lascia un commento a paicere</label>
+        </div>
+        <div class="other">
+          <textarea id="commenti" placeholder="dai non essere timido"></textarea>
+        </div>
+      </div>
+      <button type="submit" id="submit">Invia</button>
+    </form>
+    <p>i campi contrassegnati dall'asterisco, sono obbligatori</p>
+  </section>
   </body>
 </html>

@@ -1,8 +1,3 @@
-body {
-    display: grid;
-    margin: 0;
-  }
-  
   header {
     display: grid;
     grid-template-columns: 60% 40%;
@@ -43,3 +38,60 @@ body {
     height: auto;
   }
   
+  ul {
+    list-style: none;
+}
+
+body {
+    background-color: aquamarine
+}
+
+section {
+    background-color: cornsilk;
+    max-width: 750px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.label {
+    width: 40%;
+    display: inline-block;
+    text-align: right;
+    margin-top: 10px;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.other {
+    width: 45%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.field {
+    width: 250px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.dropdown {
+    width: 150px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.star {
+    float: left;
+    margin-right: 5px;
+    position: relative;
+}
+
+#title {
+    text-align: center;
+}
