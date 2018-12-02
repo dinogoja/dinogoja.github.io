@@ -1,0 +1,45 @@
+body {
+    display: grid;
+    margin: 0;
+  }
+  
+  header {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background: yellow;
+    padding: 20vw;
+  }
+  
+  main {
+    display: grid;
+  
+    background: black;
+    padding: 5vw;
+    color: whitesmoke;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  article {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-column-gap: 50px;
+    padding: 50px;
+    height: 100vh;
+  }
+  h1 {
+    font-size: 5vw;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 2vw;
+  }
+  
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  
