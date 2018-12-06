@@ -1,3 +1,6 @@
+body {
+    transform: rotate(-180deg);
+}
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +19,7 @@ header {
 main {
     top: 100px;
     position: relative;
+    font-family: 'Helvetica', sans-serif;
 }
 
 #header-img {
@@ -49,7 +53,8 @@ main {
     position: relative;
     padding: 50px 50px;
     font-size: 25px;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Helvetica', sans-serif;
+    transform: rotate(-180deg);
 }
 
 .s2 {
@@ -74,19 +79,19 @@ main {
 }
 
 .col-1 {
-    background-color: aqua;
+    background-color: whitesmoke;
 }
 
 .col-2 {
-    background-color: aquamarine;
+    background-color: whitesmoke;
 }
 
 .col-3 {
-    background-color: cyan;
+    background-color: whitesmoke;
 }
 
 .col-t {
-    background-color: red;
+    background-color: rosybrown;
     height: 75px;
     width: 100%;
     font-size: 25px;
@@ -121,6 +126,7 @@ main {
 
 #newsletter {
     margin-top: 25px;
+    font-family: 'Helvetica', sans-serif;
 }
 
 #submit {
@@ -141,7 +147,7 @@ i {
 @media (max-width: 600px) {
     #nav-bar li {
         display: block;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'Helvetica', sans-serif;
         font-size: 16px;
         font-weight: bold;
         color: red;
