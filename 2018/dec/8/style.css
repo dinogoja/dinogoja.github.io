@@ -1,0 +1,50 @@
+#main-doc {
+    display: grid;
+    grid-template-columns: 22% 1fr;
+}
+
+#navbar {
+    border-right: 1px solid;
+    text-align: left;
+    line-height: 1.8;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 0.5px solid;
+}
+
+@media (max-width: 900px) {
+    #main-doc {
+        grid-template-columns: 1fr;
+    }
+
+    #navbar {
+        border: none;
+    }
+}
+
+header {
+    font-size: 2rem;
+}
+
+#panel {
+    padding: 25px 25px;
+}
+
+body {
+    font-family: "Open Sans"
+}
+
+#JS-h {
+    text-align: center;
+}
+
+code {
+    background-color: cornsilk;
+}
