@@ -15,7 +15,7 @@
 
 a {
     text-decoration: none;
-    color: black;
+    color: blue;
     border-bottom: 0.5px solid;
 }
 
@@ -31,6 +31,8 @@ a {
 
 header {
     font-size: 2rem;
+    font-family: 'Monoton', cursive;
+    color: blue;
 }
 
 #panel {
@@ -38,7 +40,10 @@ header {
 }
 
 body {
-    font-family: "Open Sans"
+    font-family: "Open Sans", sans-serif;
+    background: black;
+    color: whitesmoke;
+    
 }
 
 #JS-h {
@@ -46,5 +51,5 @@ body {
 }
 
 code {
-    background-color: cornsilk;
+    background-color: blue;
 }
