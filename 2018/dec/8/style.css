@@ -33,6 +33,7 @@ header {
     font-size: 2rem;
     font-family: 'Monoton', cursive;
     color: blue;
+    border-bottom: 13.5px solid red;
 }
 
 #panel {
