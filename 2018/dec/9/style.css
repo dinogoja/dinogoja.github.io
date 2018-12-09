@@ -1,0 +1,30 @@
+body {
+    background: red;
+    font-family: "Buda", cursive;
+  }
+  
+  header {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+  }
+  
+  img {
+    z-index: -1;
+    background-size: cover;
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 601px) {
+    h1 {
+      font-size: 7rem;
+      padding-left: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    div.example {
+      font-size: 5rem;
+      padding-left: 50px;
+    }
+  }
+  
