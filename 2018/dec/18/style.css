@@ -1,0 +1,61 @@
+body {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 300;
+    margin: 0;
+  }
+  
+  header {
+    background-image: url(https://images.unsplash.com/photo-1455245737663-3edc3b61dd1a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+    padding: 6em;
+    padding-bottom: 20em;
+    display: flex;
+    justify-content: space-around;
+  }
+  header img {
+    -webkit-clip-path: polygon(3% 5%, 77% 7%, 62% 98%, 21% 99%);
+    clip-path: polygon(3% 5%, 77% 7%, 62% 98%, 21% 99%);
+    border: 40px solid #f068c2;
+  }
+  h1 {
+    font-family: "IBM Plex Serif", serif;
+    font-size: 8rem;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-family: "IBM Plex Serif", serif;
+    font-size: 5rem;
+    font-weight: 300;
+  }
+  
+  h1 .miami {
+    text-shadow: 5px 5px #f068c2;
+  }
+  
+  h1 .vice {
+    text-shadow: 5px 5px #50daf0;
+  }
+  .miami {
+    color: #50daf0;
+  }
+  
+  .vice {
+    color: #f068c2;
+  }
+  
+  main {
+    padding: 5em;
+  
+    background: #50daf0;
+    color: #f068c2;
+  }
+  
+  article {
+    background: white;
+    padding: 6em;
+  }
+  
+  p {
+    font-size: 2rem;
+  }
+  
