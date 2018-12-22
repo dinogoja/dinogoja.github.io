@@ -39,4 +39,21 @@ body {
   header h1 {
     font-size: 7rem;
   }
+
+main {
+  display: flex;
+}
   
+.clip {
+  clip-path: circle(50% at 50% 50%);
+  background-color: red;
+  width: 250px;
+  height: 250px;
+}
+
+.clip1 {
+  clip-path: inset(100px 50px);
+  background-color: blueviolet;
+  width: 250px;
+  height: 250px;
+}
