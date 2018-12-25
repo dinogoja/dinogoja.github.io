@@ -32,3 +32,13 @@ body {
     color: whitesmoke;
   }
   
+.try {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png');
+  shape-outside: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png');
+  width: 50px;
+  height: 50px;
+  position: relative;
+  float: left;
+  shape-image-threshold: 0.5;
+  shape-margin: 15px;
+}
