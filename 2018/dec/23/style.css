@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
 header {
     background-image: url(001.png);
     padding: 20vh;
+    background-color: red;
+    background-blend-mode: exclusion;
 }
 
 h1 {
