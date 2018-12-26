@@ -36,3 +36,49 @@ body {
     flex: 1;
   }
   
+section {
+  height: 100vh;
+  background-color: azure;
+}
+
+.row {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  background-color: cornsilk;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.test {
+  width: 150px;
+  background-image: url('./pige.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 20px;
+  background-color: blue;
+}
+
+.due {
+  background-blend-mode: multiply;
+}
+
+.tre {
+  background-blend-mode: exclusion;
+}
+
+.quattro {
+  background-blend-mode: lighten;
+}
+
+.cinque {
+  background-blend-mode: luminosity;
+}
+
+.sei {
+  background-blend-mode: saturation;
+}
