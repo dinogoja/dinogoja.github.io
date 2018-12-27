@@ -22,3 +22,56 @@ body {
     grid-row: span 2;
   }
   
+.wrapper {
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "left center right"
+                        "midl midc midr"
+                        "all all all"
+                        "lowl lowc lowr";
+}
+
+.item16 {
+  grid-area: left;
+}
+
+.item17 {
+  grid-area: center;
+}
+
+.item18 {
+  grid-area: right;
+}
+
+.item19 {
+  grid-area: midl;
+  visibility: hidden;
+}
+
+.item20 {
+  grid-area: midc;
+}
+
+.item21 {
+  grid-area: midr;
+  visibility: hidden;
+}
+
+.item22 {
+  grid-area: all;
+}
+
+.item23 {
+  grid-area: lowl;
+}
+
+.item24 {
+  grid-area: lowc;
+  visibility: hidden;
+}
+
+.item25 {
+  grid-area: lowr;
+}
