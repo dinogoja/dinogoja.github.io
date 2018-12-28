@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Spectral:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i");
+
+body {
+  background: palegoldenrod;
+  font-family: "Spectral", serif;
+}
+
+#logo {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 5vw;
+  line-height: 0.1;
+  font-weight: 800;
+  font-stretch: 100;
+  font-optical-sizing: 24;
+  font-family: "Spectral", serif;
+}
+
+h2 {
+  font-size: 3vw;
+  line-height: 0.9;
+  font-weight: 550;
+  font-stretch: 100;
+  font-optical-sizing: 24;
+}
+
+nav {
+  margin: 1em;
+}
+
+section {
+  background: black;
+  color: palegoldenrod;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  margin: 2em;
+  padding: 2em;
+  display: grid;
+  grid-template-columns: 70% 1fr;
+  grid-gap: 4em;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.5vw;
+  line-height: 1.1;
+  font-weight: 200;
+  font-stretch: 20;
+  font-optical-sizing: 14;
+}
+
+@media only screen and (max-width: 685px) {
+  main {
+    grid-template-columns: repeat(1, 250px);
+  }
+}
