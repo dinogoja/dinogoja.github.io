@@ -78,3 +78,15 @@ body, html {
   right: 45px;
   font-size: 60px;
 }
+
+footer {
+  text-align: center;
+  padding: 50px;
+  background: blue;
+  color: beige;
+  font-size: 2rem;
+}
+
+footer a {
+  color: whitesmoke;
+}
