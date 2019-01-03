@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<meta charset="UTF-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X=UA=Compatible" content="ie=edge">
+	<link href="./style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link href="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<title>Exam #5 work in progress</title>
+</head>
+<body>
+
+	<div class="bg-image img1"></div>
+	<div class="bg-image img2"></div>
+	<div class="bg-image img3"></div>
+	<div class="bg-image img4"></div>
+
+	<div class="bg-text" onclick="openNav()">&#9776; MENU</div>
+
+	<div id="myNav" class="overlay">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	    <div class="overlay-content">
+		  <a href="#">Nature</a>
+		  <a href="#">Random</a>
+		  <a href="#">City</a>
+		  <a href="#">Night</a>
+  	    </div>
+    </div>
+
+    <script>
+		function openNav() {
+		  document.getElementById("myNav").style.height = "100%";
+		}
+
+		function closeNav() {
+		  document.getElementById("myNav").style.height = "0%";
+		}
+    </script>
+</body>
+</html>
