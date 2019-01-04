@@ -1,0 +1,22 @@
+body {
+    background: lightskyblue;
+  }
+  
+  h1 {
+    font-size: 7rem;
+    color: palevioletred;
+  
+    padding: 10px;
+  }
+  
+  h2 {
+    font-size: 4rem;
+    color: palegoldenrod;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-around;
+    padding: 5em;
+  }
+  
