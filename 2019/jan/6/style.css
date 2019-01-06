@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Hammersmith+One");
+
+body {
+  margin: 0;
+  background-color: papayawhip;
+  font-family: "Hammershith One", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+header img {
+  width: 50%;
+  height: 50%;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 0 5px;
+}
+
+p {
+  text-align: justify;
+  margin: 0 10px;
+}
