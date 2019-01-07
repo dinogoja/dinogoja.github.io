@@ -40,6 +40,7 @@ body {
     font-family: sans-serif;
     margin-top: 0px;
     padding-top: 0px;
+    text-shadow: 10px 10px black;
   }
   span {
     mix-blend-mode: multiply;
@@ -55,6 +56,7 @@ body {
   
   main img {
     width: 100%;
+    box-shadow: 10px 10px whitesmoke, 20px 20px orange, 30px 30px black;
   }
   
   main p {
