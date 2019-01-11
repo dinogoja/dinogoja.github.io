@@ -8,7 +8,7 @@ body {
 .noidea-1 {
   background-image: url("https://images.unsplash.com/photo-1533903237682-b47efb7ebffd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2002&q=80");
   height: 100vh;
-  animation: yourAnimation 3s infinite 0s linear;
+  
 }
 
 .noidea-2 {
@@ -36,14 +36,4 @@ header {
   grid-gap: 30px;
 }
 
-@keyframes yourAnimation {
-  0% {
-  }
-  52% {
-    transform: rotate(xx) scale(1.5);
-  }
-}
 
-.noidea-1 {
-  animation: yourAnimation 3s infinite 0s linear;
-}
