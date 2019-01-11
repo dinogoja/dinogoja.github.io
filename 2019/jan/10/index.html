@@ -16,7 +16,10 @@
   </head>
 
   <body>
-    <nav>MMM</nav>
+    <nav><h1>MMM<h1>
+    	<input id="myInput" value="Some text..">
+		<p id="text">WARNING! Caps lock is ON.</p>
+    </nav>
     <header>
       <div class="one"></div>
       <div class="two"></div>
@@ -28,5 +31,19 @@
       <div class="eight"></div>
       <div class="nine"></div>
     </header>
+
+    <script>
+		var input = document.getElementById("myInput");
+		var text = document.getElementById("text");
+		input.addEventListener("keyup", function(event) {
+
+		if (event.getModifierState("CapsLock")) {
+		    text.style.display = "block";
+		  } else {
+		    text.style.display = "none"
+		  }
+		});
+	</script>
+
   </body>
 </html>
