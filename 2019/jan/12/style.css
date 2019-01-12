@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine:700");
+
+body {
+  margin: 10px;
+  padding: 20px;
+  background-color: tomato;
+}
+
+header {
+  text-align: center;
+}
+
+aside {
+  margin-top: 3em;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1541663810-db39bacbef14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1782&q=80");
+}
+
+h1 {
+  font-family: "Tangerine", cursive;
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 70% 1fr;
+  grid-gap: 20px;
+}
+
+section {
+  background-color: turquoise;
+  text-align: center;
+}
+
+article {
+  padding: 5em;
+}
+
+p {
+  text-align: justify;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  margin-top: 2em;
+  padding-top: 1em;
+  background-color: black;
+  color: tomato;
+  display: flex;
+  justify-content: center;
+  border-radius: 60%;
+  font-size: 3em;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  margin: 5em;
+  list-style-type: none;
+}
+
+li {
+  padding: 2em;
+}
+
+button {
+  background-color: turquoise;
+  font-size: 3rem;
+  color: black;
+  padding: 1em;
+  box-shadow: 5px 5px black;
+  font-weight: bolder;
+}
