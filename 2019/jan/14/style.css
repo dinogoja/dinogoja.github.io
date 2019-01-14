@@ -1,0 +1,27 @@
+body {
+    background: lawngreen;
+  }
+  
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
+  div {
+    background-color: whitesmoke;
+    min-height: 20vh;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
