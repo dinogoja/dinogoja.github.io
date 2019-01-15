@@ -1,0 +1,27 @@
+body {
+    background-color: blue;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid whitesmoke;
+  }
+  
+  h1 {
+    color: blue;
+    font-size: 5rem;
+    border: 3px solid whitesmoke;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    padding: 30px;
+  }
+  
+  p {
+    color: white;
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+  
+  main {
+    margin: 30px;
+    padding: 380px;
+    padding-top: 150px;
+  }
+  
