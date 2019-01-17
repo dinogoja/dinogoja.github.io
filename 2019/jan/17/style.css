@@ -8,3 +8,10 @@ header {
 h1 {
     font-size: 5rem;
 }
+
+
+.end {
+    background-color: black;
+    color: whitesmoke;
+    padding: 5em;
+}
