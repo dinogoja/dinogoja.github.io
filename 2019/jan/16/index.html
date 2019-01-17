@@ -25,6 +25,10 @@
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
+
+      <button onclick="myFunction()">Show Snackbar</button>
+      <div id="snackbar">Snackbar eh?..</div>
+
     </main>
     <footer></footer>
     <script>
@@ -44,6 +48,13 @@
         translateX: 600,
         skew: 190
       });
+
+      function myFunction() {
+	  var x = document.getElementById("snackbar");
+	  x.className = "show";
+	  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+	};
+
     </script>
   </body>
 </html>
