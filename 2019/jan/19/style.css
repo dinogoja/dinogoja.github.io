@@ -1,0 +1,32 @@
+body {
+    background-color: lightgrey;
+  }
+  
+  header {
+    margin: 10vh;
+    padding: 20vh;
+    background: lavender;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  header img {
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    width: 250px;
+    height: 100%;
+    box-shadow: 15px 15px black;
+  }
+  
+  h1 {
+    padding: 0.5em;
+    font-size: 4rem;
+    text-shadow: 5px 5px lightgray;
+  }
+  
+  p {
+    padding: 4.5em;
+    text-align: justify;
+    text-shadow: 5px 5px lightgray;
+  }
+  
