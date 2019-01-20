@@ -30,3 +30,6 @@ body {
     text-shadow: 5px 5px lightgray;
   }
   
+main p {
+  padding: 1px;
+}
