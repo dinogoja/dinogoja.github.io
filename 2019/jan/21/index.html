@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+
+    <title>MMM</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="demo">Playing with Three.js</h1>
+
+      <button type="button" onclick="myFunction()">Click Me!</button>
+    </header>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.js"></script>
+
+    <script>
+      var scene = new THREE.Scene();
+      var camera = new THREE.PerspectiveCamera(55, window.innerWidth / window.innerHeight, 0.1, 1000);
+
+      var renderer = new THREE.WebGLRenderer();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      document.body.appendChild(renderer.domElement);
+
+      var geometry = new THREE.BoxGeometry(2, 2, 2);
+      var material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+      var cube = new THREE.Mesh(geometry, material);
+      scene.add(cube);
+
+      camera.position.z = 5;
+
+      var animate = function() {
+        requestAnimationFrame(animate);
+
+        cube.rotation.x += 0.01;
+        cube.rotation.y += 0.01;
+
+        renderer.render(scene, camera);
+      };
+
+      animate();
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
