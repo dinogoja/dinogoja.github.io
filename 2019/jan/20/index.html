@@ -22,7 +22,21 @@
       <div class="card grid-4"></div>
       <div class="card grid-5"></div>
     </main>
-    <footer></footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <footer>
+    	<p>Click the button to see if the browser is online. Cool. Supercool page also</p>
+
+		<button onclick="myFunction()">Try it</button>
+
+		<p id="demo"></p>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js">
+    </script>
+    <script>
+    	function myFunction() {
+		  var x = "Is the browser online? " + navigator.onLine;
+		  document.getElementById("demo").innerHTML = x;
+		}
+    </script>
   </body>
 </html>
