@@ -21,4 +21,25 @@ body {
     color: lightcoral;
     font-size: 3rem;
   }
-  
+
+* {
+  box-sizing: border-box;
+}
+
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); 
+}
+
+footer {
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
