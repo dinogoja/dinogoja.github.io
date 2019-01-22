@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+
+body {
+  background: lightcyan;
+  font-family: "Audiowide", cursive;
+  margin: 0;
+}
+
+header {
+  padding: 2em;
+}
+
+h1 {
+  font-size: 9rem;
+  font-family: "Audiowide", cursive;
+  background-image: linear-gradient(yellow, red);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+main {
+  padding: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
+}
+
+main img {
+  width: 100%;
+}
