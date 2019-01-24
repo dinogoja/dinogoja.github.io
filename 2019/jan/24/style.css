@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i");
+
+html,
+body {
+  margin: 0;
+  font-family: "Lora", serif;
+  padding: 0;
+}
+.background {
+  position: absolute;
+
+  display: block;
+
+  top: 0;
+
+  left: 0;
+
+  z-index: 0;
+}
+
+header {
+  text-align: center;
+  background-image: url("1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200vh;
+}
+
+h1 {
+  font-size: 5rem;
+  font-style: italic;
+}
+
+main {
+  margin: 6em;
+  padding: 29em;
+  text-align: justify;
+}
+
+p {
+  font-size: 0.9rem;
+}
