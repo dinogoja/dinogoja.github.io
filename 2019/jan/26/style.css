@@ -1,0 +1,47 @@
+body {
+    background-color: #ffddee;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='100' stroke-opacity='0.03' %3E%3Ccircle fill='%23ffddee' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23f0cfe0' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23e1c2d2' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23d2b5c4' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23c3a7b6' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23b59aa9' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23a78e9b' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%2399818e' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%238b7581' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%237e6974' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23705d68' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%2364515c' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23574650' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%234b3b44' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%233f3039' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%2333262e' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23281c23' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%231d1219' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  header {
+    margin: 2em;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: lightblue;
+  }
+  
+  header p {
+    max-width: 250px;
+    text-align: justify;
+    opacity: 0.5;
+  }
+  
+  .video {
+    margin: 2em;
+    opacity: 0.5;
+  }
+  
+  main {
+    border: 20px solid white;
+    margin: 6em;
+    padding: 5em;
+    background-image: url("https://images.unsplash.com/photo-1503368540675-1e6f924db274?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    mix-blend-mode: hard-light;
+    background-color: red;
+    opacity: 0.5;
+  }
+  
+  main p {
+    font-size: 9rem;
+    color: lightblue;
+    mix-blend-mode: multiply;
+    background-color: red;
+    padding: 0.3em;
+  }
+  
