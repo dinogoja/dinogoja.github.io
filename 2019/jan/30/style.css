@@ -1,0 +1,43 @@
+
+body {
+    margin: 0;
+  }
+  
+  header {
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(to right, blue 50%, yellow 50%);
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 7rem;
+    padding: 0.5em;
+    color: whitesmoke;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 4rem;
+    padding: 0.5em;
+    color: black;
+  }
+  
+  main {
+    width: 100%;
+    height: 650px;
+    background: linear-gradient(to right, red 50%, white 50%);
+  }
+  
+  footer {
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(to right, white 50%, orange 50%);
+  }
+  
+  p {
+    margin: 0;
+    padding: 4em;
+    font-size: 1.5em;
+  }
+  
