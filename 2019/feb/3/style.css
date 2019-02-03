@@ -1,0 +1,86 @@
+body {
+    background-color: palegoldenrod;
+    padding: 10vw;
+  }
+  
+  .intro {
+    background-color: black;
+    color: palegoldenrod;
+    opacity: 0;
+    width: 0%;
+    transition: 3s;
+  }
+  
+  .intro.show {
+    opacity: 1;
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 7rem;
+  }
+  
+  h2 {
+    font-size: 5rem;
+  }
+  
+  .importante {
+    background-color: black;
+    color: palegoldenrod;
+    opacity: 0;
+    width: 0%;
+    transition: 3s;
+  }
+  
+  .importante.show {
+    opacity: 1;
+    width: 100%;
+  }
+  
+  .molto {
+    background-color: black;
+    color: palegoldenrod;
+    opacity: 0;
+    width: 0%;
+    transition: 3s;
+  }
+  
+  .molto.fade-in {
+    opacity: 1;
+    width: 100%;
+  }
+  
+  .avanti {
+    background-color: black;
+    color: palegoldenrod;
+    opacity: 0;
+    width: 0%;
+    transition: 3s;
+  }
+  
+  .avanti.fade-in {
+    opacity: 1;
+    width: 100%;
+  }
+  
+  .panel {
+    height: 100%;
+    width: 100%;
+  }
+  .panel.green {
+    margin-bottom: 400px;
+  }
+  
+  .panel.blue {
+    margin-bottom: 400px;
+  }
+  
+  .panel.turqoise {
+    margin-bottom: 400px;
+  }
+  
+  .panel.bordeaux {
+    margin-bottom: 400px;
+  }
+  
+  
