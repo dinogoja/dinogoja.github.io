@@ -1,0 +1,23 @@
+body {
+    height: 3000px;
+    background: linear-gradient(55deg, #c7ecee 0%, red 51%, blue 85%);
+  }
+  
+  h1 {
+    font-size: 12rem;
+    opacity: 0.5;
+  }
+  
+  h2 {
+    font-size: 8rem;
+  }
+  
+  p {
+    font-size: 2rem;
+  }
+  
+  .test {
+    background-color: yellow;
+  }
+  
+  
