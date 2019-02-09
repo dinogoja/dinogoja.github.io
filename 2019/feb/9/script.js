@@ -4,9 +4,9 @@ window.onscroll = function() {
   
   function myFunction() {
     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-      document.getElementById("myP").className = "test";
+      document.getElementById("body").className = "test";
     } else {
-      document.getElementById("myP").className = "test";
+      document.getElementById("body").className = "test";
     }
   }
   
