@@ -1,0 +1,22 @@
+body {
+    background-color: lavender;
+  }
+  
+  h1 {
+    font-size: 12rem;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 7px;
+  }
+  
+  footer {
+    margin: 3em;
+  }
+  
