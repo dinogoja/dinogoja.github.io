@@ -16,3 +16,56 @@ body {
     text-align: center;
   }
   
+
+  .btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.success {
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.info {
+  color: dodgerblue;
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+.warning {
+  color: orange;
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+.danger {
+  color: red;
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+.default {
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
