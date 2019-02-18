@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Quattrocento:700");
+
+body {
+  background-color: whitesmoke;
+}
+
+.opening {
+  display: grid;
+  grid-template-columns: 1fr 60%;
+
+  grid-gap: 30px;
+  padding: 5em;
+}
+
+h2 {
+  font-size: 5rem;
+  font-family: "Quattrocento", serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  font-family: "Helvetica", sans-serif;
+  font-size: 1rem;
+}
+
+button {
+  border: 1px solid black;
+  margin: 1em;
+  padding: 1em;
+  background: yellow;
+  font-weight: bold;
+}
+
+button:hover {
+  background: blue;
+  color: whitesmoke;
+  box-shadow: 4px 4px yellow;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: blue;
+  }
+
+  .opening {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    grid-gap: 30px;
+    padding: 5em;
+  }
+
+  h2 {
+    font-size: 3rem;
+    font-family: "Quattrocento", serif;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  p {
+    font-family: "Helvetica", sans-serif;
+    font-size: 1rem;
+  }
+
+  button {
+    border: 1px solid black;
+    margin: 1em;
+    padding: 1em;
+    background: yellow;
+    font-weight: bold;
+  }
+
+  button:hover {
+    background: blue;
+    color: whitesmoke;
+    box-shadow: 4px 4px yellow;
+  }
+}
