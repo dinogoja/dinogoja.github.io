@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+
+body {
+  padding: 2em;
+  background-color: #f2f5fc;
+  background-image: url("https://www.transparenttextures.com/patterns/cream-pixels.png");
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 5rem;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
