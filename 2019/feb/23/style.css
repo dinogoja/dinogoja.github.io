@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Quattrocento:400,700");
+
+body {
+  background-color: black;
+  color: lightgrey;
+}
+
+.one {
+  color: lightgray;
+  font-size: 9rem;
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+
+  transition: font-size 4s;
+  transition-timing-function: linear;
+}
+
+.one:hover {
+  font-size: 17rem;
+  background-color: red;
+}
+
+.two {
+  color: lightgray;
+  font-size: 9rem;
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+
+  transition: font-size 4s;
+  transition-timing-function: linear;
+}
+
+.two:hover {
+  font-size: 17rem;
+}
+.three {
+  color: lightgray;
+  font-size: 9rem;
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+
+  transition: font-size 4s;
+  transition-timing-function: linear;
+}
+
+.three:hover {
+  font-size: 17rem;
+}
+.four {
+  color: lightgray;
+  font-size: 9rem;
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+
+  transition: font-size 4s;
+  transition-timing-function: linear;
+}
+
+.four:hover {
+  font-size: 17rem;
+}
+.five {
+  color: lightgray;
+  font-size: 9rem;
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+
+  transition: font-size 4s;
+  transition-timing-function: linear;
+}
+
+.five:hover {
+  font-size: 17rem;
+}
+.six {
+  color: lightgray;
+  font-size: 9rem;
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+
+  transition: font-size 4s;
+  transition-timing-function: linear;
+}
+
+.six:hover {
+  font-size: 17rem;
+}
+.seven {
+  color: lightgray;
+  font-size: 9rem;
+  font-family: "Quattrocento", serif;
+  font-weight: 700;
+
+  transition: font-size 4s;
+  transition-timing-function: linear;
+}
+
+.seven:hover {
+  font-size: 17rem;
+}
+
+.opening {
+  display: flex;
+  justify-content: space-evenly;
+}
