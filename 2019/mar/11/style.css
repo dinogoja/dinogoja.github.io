@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather:900");
+
+body {
+  font-family: "Merriweather", serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 1rem;
+}
