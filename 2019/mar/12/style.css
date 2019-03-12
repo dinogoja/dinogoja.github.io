@@ -1,0 +1,9 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    color: black;
+    font-size: 12rem;
+    font-family: 'Courier New', Courier, monospace;
+}
