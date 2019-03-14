@@ -1,0 +1,16 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
