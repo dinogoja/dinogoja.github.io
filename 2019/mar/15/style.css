@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Quattrocento:400,700");
+
+body {
+  font-size: 1rem;
+  background-color: teal;
+  font-family: "Quattrocento", serif;
+}
+
+h1 {
+  font-size: 8rem;
+  font-family: "Quattrocento", serif;
+  font-weight: 400;
+  color: yellow;
+}
+
+h2 {
+  font-size: 4rem;
+  font-family: "Quattrocento", serif;
+  font-weight: 400;
+  color: yellow;
+}
+
+header {
+  padding: 2em;
+}
+
+.ex {
+  width: 900px;
+  height: 800px;
+  background: red;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  opacity: 0.5;
+  border-radius: 20%;
+}
