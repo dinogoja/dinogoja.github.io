@@ -1,0 +1,25 @@
+body {
+    background-color: wheat;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  main p {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    padding: 4em;
+    font-size: 2rem;
+  }
+  
+  main img {
+    width: 100%;
+    height: auto;
+  }
+  
