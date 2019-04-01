@@ -1,0 +1,14 @@
+body {
+    background-color: yellow;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 12rem;
+    position: absolute;
+    top: 50px;
+  }
+  
