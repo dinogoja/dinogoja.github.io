@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Sniglet:800");
+
+body {
+  background-color: blanchedalmond;
+  padding: 3em;
+}
+
+h1 {
+  font-size: 25rem;
+  font-family: "Sniglet", cursive;
+  color: red;
+
+  overflow: hidden;
+}
+
+.rebel {
+  transform: rotate(30deg);
+}
