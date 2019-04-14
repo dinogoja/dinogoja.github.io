@@ -1,0 +1,20 @@
+body {
+    background-color: khaki;
+  }
+  
+  h1 {
+    color: aqua;
+    font-size: 8em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  img {
+    width: 30%;
+    height: 30%;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+  
