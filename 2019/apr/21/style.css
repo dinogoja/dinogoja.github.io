@@ -1,0 +1,22 @@
+body {
+    padding: 30px;
+  }
+  
+  main {
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 30%;
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 5rem;
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
