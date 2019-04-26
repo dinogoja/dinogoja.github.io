@@ -1,0 +1,24 @@
+body {
+    background: khaki;
+  }
+  
+  h1 {
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7rem;
+  }
+  
+  header img {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    text-align: center;
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+  }
+  
+  header {
+    display: flex;
+  }
+  
