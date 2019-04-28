@@ -1,0 +1,57 @@
+:root {
+    --background-color: antiquewhite;
+  }
+  
+  body {
+    margin: 30px;
+    padding: 20px;
+    background-color: aliceblue;
+  }
+  main p::before {
+    content: "WTF - ";
+    color: red;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  
+  header {
+    background: var(--background-color);
+    padding: 40px;
+    position: relative;
+    top: 50px;
+    z-index: -1;
+  }
+  
+  h1 {
+    font-size: 8rem;
+  }
+  
+  main {
+    margin: 30px;
+    padding: 100px;
+  }
+  
+  footer {
+    background: var(--background-color);
+  }
+  
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color: black;
+    width: 300px;
+  }
+  
+  #logo {
+    font-size: 3rem;
+    color: whitesmoke;
+    padding: 20px;
+  }
+  
