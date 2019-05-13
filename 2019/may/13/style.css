@@ -1,0 +1,55 @@
+:root {
+    background-color: blanchedalmond;
+  }
+  
+  body {
+    margin: 2em;
+    padding: 40px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  figure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  #logo {
+    font-size: 3rem;
+  }
+  
+  #navbar {
+    background-color: black;
+    color: whitesmoke;
+    min-height: 50px;
+  }
+  
+  #navbar ul {
+    display: flex;
+  
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+  }
+  
+  header {
+    padding: 30px;
+    margin: 20px;
+  }
+  
+  main {
+    padding: 30px;
+    margin: 20px;
+  }
+  
