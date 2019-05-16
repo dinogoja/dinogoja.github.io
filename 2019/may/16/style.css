@@ -1,0 +1,33 @@
+:root {
+    background-color: khaki;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 13rem;
+  }
+  
+  main {
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 7rem;
+  }
+  
+  h3 {
+    font-size: 3rem;
+  }
+  
