@@ -1,0 +1,54 @@
+:root {
+    background: indianred;
+  }
+  
+  body {
+    background-color: gold;
+    margin: 2em;
+    padding: 2em;
+    opacity: 0.5;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    filter: blur(5px);
+  }
+  
+  img:hover {
+    max-width: 100%;
+    height: auto;
+    transform: scale(1.5);
+    filter: blur(1px);
+    transition: transform 0.9s;
+  }
+  
+  h1 {
+    font-size: 7rem;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 20% 30%;
+    grid-gap: 2em;
+  }
+  
+  #navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  
+  #logo {
+    font-size: 3rem;
+  }
+  
+  #logosmall {
+    font-size: 1.5rem;
+  }
+  
+  footer {
+    margin: 3em;
+    padding: 30px;
+  }
+  
