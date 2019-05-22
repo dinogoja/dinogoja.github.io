@@ -1,0 +1,34 @@
+:root {
+    background-color: pink;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  main {
+    margin: 200px;
+    padding: 20px;
+    border: 15px solid red;
+    box-shadow: 15px 15px 10px black;
+  }
+  
+  h1 {
+    font-size: 6rem;
+  }
+  
+  #menu {
+    width: 150px;
+    height: 35px;
+    background: black;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  p {
+    font-size: 1.5rem;
+  }
+  header {
+    margin: 50px;
+  }
+  
