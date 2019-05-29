@@ -1,0 +1,51 @@
+:root {
+    background-color: black;
+    color: whitesmoke;
+  }
+  
+  body {
+    margin: 2em;
+  }
+  
+  h1 {
+    font-size: 6rem;
+  }
+  
+  #logo {
+    font-size: 3rem;
+    border: 1px solid red;
+  }
+  
+  #navbar {
+    border: 1px solid red;
+  }
+  
+  nav {
+    border: 1px solid red;
+    width: 500px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+  
+  #navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+  
+  footer {
+    margin: 2em;
+    padding: 1em;
+  }
+  
