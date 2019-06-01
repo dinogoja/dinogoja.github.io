@@ -1,0 +1,52 @@
+:root {
+    background-color: aliceblue;
+  }
+  
+  body {
+    margin: 3em;
+    padding: 50px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 11rem;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  #logo {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  #navbar1 {
+    position: absolute;
+    left: 30px;
+    top: 50px;
+  }
+  
+  #navbar2 {
+    position: absolute;
+    right: 30px;
+    top: 50px;
+  }
+  
+  #navbar1 ul,
+  #navbar2 ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li {
+    padding: 2em;
+  }
+  
+  main {
+    padding: 5em;
+  }
+  
