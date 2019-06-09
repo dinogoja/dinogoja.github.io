@@ -1,0 +1,54 @@
+:root {
+    background-color: khaki;
+  }
+  
+  body {
+    margin: 1em;
+    padding: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  h1 {
+    font-size: 11rem;
+    text-shadow: 3px 3px 5px red;
+  }
+  
+  #logo {
+    font-size: 3rem;
+    color: red;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #navbar {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 300px;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    padding: 400px;
+    padding-top: 20px;
+    border: 1px solid red;
+  }
+  
+  #foobars {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  #foologo {
+    font-size: 2rem;
+    color: red;
+  }
+  
