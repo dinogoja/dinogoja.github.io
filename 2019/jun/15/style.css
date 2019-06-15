@@ -1,0 +1,32 @@
+:root {
+    background-color: aquamarine;
+  }
+  
+  body {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  h1 {
+    font-size: 11rem;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  main {
+    margin: 2em;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  #logo {
+    font-size: 3rem;
+  }
+  
+  footer {
+    padding: 30px;
+  }
+  
