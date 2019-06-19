@@ -1,0 +1,71 @@
+:root {
+    background: lavender;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  #logo {
+    font-size: 3rem;
+    font-weight: bold;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    border: 1px solid black;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 30px;
+    right: 50px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  
+  nav {
+    width: 500px;
+  }
+  
+  header {
+    margin-top: 150px;
+  }
+  
+  h1 {
+    font-size: 9rem;
+    position: absolute;
+    left: 30px;
+    color: lavender;
+  }
+  
+  span {
+    width: 100%;
+    background: red;
+    color: red;
+    position: absolute;
+    height: 10px;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+    grid-gap: 180px;
+    padding-right: 30px;
+    margin-top: 200px;
+  }
+  
+  footer {
+    background: #f1f1f1;
+    margin: 50px;
+    padding: 50px;
+  }
+  
