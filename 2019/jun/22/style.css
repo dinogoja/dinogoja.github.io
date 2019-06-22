@@ -1,0 +1,25 @@
+:root {
+    background: lavender;
+  }
+  
+  .logo {
+    font-size: 4rem;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin: 2em;
+  }
+  
+  main {
+    margin: 4em;
+    padding: 6em;
+  }
+  
+  main p {
+    max-width: 300px;
+  }
+  
+  footer {
+    margin: 2em;
+    padding: 2em;
+  }
+  
