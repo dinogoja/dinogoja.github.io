@@ -1,0 +1,43 @@
+:root {
+    background: gainsboro;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+  }
+  
+  h1 {
+    font-size: 8rem;
+    padding: 1em;
+  }
+  
+  main {
+    margin: 2em;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 20%;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    max-width: 100px;
+    height: auto;
+    border: 1px solid red;
+  }
+  
+  .image1 {
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+  }
+  
+  footer {
+    font-size: 3rem;
+    margin: 1em;
+    padding: 1em;
+  }
+  
