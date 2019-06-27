@@ -1,0 +1,19 @@
+:root {
+    background: ghostwhite;
+  }
+  
+  html,
+  body {
+    margin: 2em;
+    padding: 2em;
+    font-size: 2vw;
+  }
+  
+  h1 {
+    font-size: 4em;
+  }
+  
+  p {
+    font-size: 1.1em;
+  }
+  
