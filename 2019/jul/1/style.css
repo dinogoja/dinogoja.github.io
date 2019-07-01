@@ -1,0 +1,36 @@
+:root {
+    background: gainsboro;
+    font-size: 2vw;
+  }
+  
+  body {
+    font-weight: 300;
+  }
+  
+  #logo {
+    font-size: 3rem;
+    position: fixed;
+    top: 0;
+    left: calc(50% - 80px);
+    z-index: 10;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  header {
+    margin: 1em;
+    padding: 1em;
+  }
+  
+  main {
+    margin: 1em;
+    padding: 1em;
+  }
+  
+  footer {
+    margin: 1em;
+    padding: 1em;
+  }
+  
