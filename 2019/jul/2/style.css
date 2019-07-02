@@ -1,0 +1,17 @@
+:root {
+    background: ghostwhite;
+  }
+  
+  body {
+    font-size: 7rem;
+  }
+  
+  h1 {
+    font-size: 8rem;
+  }
+  
+  main {
+    margin: 2em;
+    padding: 2em;
+  }
+  
