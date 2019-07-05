@@ -1,0 +1,42 @@
+:root {
+    background: gainsboro;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  #logo {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  nav {
+    background: black;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    color: aquamarine;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 1em;
+    padding: 1em;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  main img {
+    max-height: 300px;
+    max-width: 50%;
+  }
+  
