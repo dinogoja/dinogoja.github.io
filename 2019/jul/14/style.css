@@ -1,0 +1,14 @@
+:root {
+    font-size: 2vw;
+  }
+  
+  body {
+    background: green;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 6rem;
+  }
+  
