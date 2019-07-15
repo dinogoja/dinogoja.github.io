@@ -1,0 +1,74 @@
+:root {
+    font-size: 2vw;
+  }
+  
+  body {
+    background: gainsboro;
+  }
+  
+  header {
+    margin: 1em;
+    padding: 2em;
+  }
+  
+  nav {
+    width: 300px;
+    height: 100%;
+    background: red;
+    color: whitesmoke;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    position: fixed;
+    right: 3em;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    background: red;
+  }
+  
+  nav li {
+    padding: 1em;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    text-shadow: 9px 9px 19px palegoldenrod;
+    background: lightblue;
+    padding: 1em;
+  }
+  
+  #logo {
+    font-size: 3rem;
+    position: fixed;
+    top: 0;
+    left: 2em;
+    z-index: 1;
+  }
+  
+  main {
+    margin: 2em;
+    padding: 3em;
+  }
+  
+  a {
+    color: orangered;
+  }
+  
+  p {
+    text-shadow: 1px 1px 7px red;
+  }
+  
+  .skew {
+    background-color: yellow;
+    -ms-transform: skewY(20deg); /* IE 9 */
+    -webkit-transform: skewY(20deg); /* Safari 3-8 */
+    transform: skewY(20deg);
+    padding: 1em;
+    z-index: 2;
+    position: absolute;
+  }
+  
