@@ -1,0 +1,32 @@
+:root {
+    background: wheat;
+  }
+  
+  body {
+    margin: 4em;
+    padding: 1em;
+  }
+  
+  h1 {
+    font-size: 5rem;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  main {
+    margin: 2em;
+    padding: 4em;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+  }
+  
+  .container img {
+    width: 50%;
+  }
+  
