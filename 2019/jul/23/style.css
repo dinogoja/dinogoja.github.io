@@ -1,0 +1,36 @@
+:root {
+    background: lightgoldenrodyellow;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 9rem;
+  }
+  
+  main {
+    margin: 3em;
+    padding: 3em;
+  }
+  
+  footer {
+    margin: 1em;
+    padding: 2em;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  header {
+    margin: 1em;
+    padding: 2em;
+  }
+  
+  p {
+    font-size: 2rem;
+  }
+  
