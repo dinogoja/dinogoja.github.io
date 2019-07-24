@@ -1,0 +1,93 @@
+:root {
+    background: lightcyan;
+  }
+  
+  body {
+    margin: 2em;
+    padding: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    padding: 1em;
+    background-image: url(https://images.unsplash.com/photo-1563927648995-79a6ffffc028?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1866&q=80);
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin: 1em;
+    padding: 1em;
+  }
+  h2 {
+    font-size: 2rem;
+    margin: 1em;
+    padding: 1em;
+  }
+  
+  #logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  nav {
+    position: relative;
+    right: 2em;
+    top: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background: yellow;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  main {
+    margin: 2em;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+  }
+  
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    margin: 1em;
+    padding: 1em;
+  }
+  
+  aside p {
+    font-size: 1.5rem;
+  }
+  
+  aside img {
+    width: 50%;
+  }
+  
+  aside {
+    background: lightcoral;
+    padding: 1em;
+  }
+  
+  button {
+    background: transparent;
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid black;
+  }
+  
+  button:hover {
+    border-radius: 50%;
+  }
+  
