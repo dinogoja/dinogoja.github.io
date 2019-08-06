@@ -1,0 +1,23 @@
+:root {
+    font-size: 2vw;
+  }
+  
+  body {
+    margin: 1em;
+    padding: 2em;
+  }
+  
+  main {
+    margin: 1em;
+    padding: 2em;
+  }
+  
+  footer {
+    margin: 1em;
+    padding: 2em;
+  }
+  
+  h1 {
+    font-size: 5rem;
+  }
+  
