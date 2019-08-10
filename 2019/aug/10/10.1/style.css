@@ -1,0 +1,101 @@
+:root {
+    background: rgb(250, 105, 18);
+    background: linear-gradient(
+      90deg,
+      rgba(250, 105, 18, 1) 3%,
+      rgba(42, 200, 184, 1) 43%,
+      rgba(167, 219, 216, 1) 79%
+    );
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    margin: 2em;
+    padding: 2em;
+    background: rgb(250, 105, 18);
+    background: radial-gradient(
+      circle,
+      rgba(250, 105, 18, 1) 3%,
+      rgba(42, 200, 184, 1) 43%,
+      rgba(167, 219, 216, 1) 79%
+    );
+    box-shadow: 5px 8px 28px whitesmoke;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .pod {
+    background: #e0e4cc;
+    width: 300px;
+    height: 250px;
+  }
+  
+  main {
+    margin: 1em;
+    padding: 2em;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 30% 1fr 30%;
+    grid-template-rows: 100px 100px 100px;
+    justify-items: center;
+  
+    grid-gap: 15px;
+  }
+  
+  .pod-1 {
+    box-shadow: 5px 8px 28px whitesmoke;
+  }
+  .pod-2 {
+    box-shadow: 5px 8px 28px whitesmoke;
+  }
+  .pod-3 {
+    box-shadow: 5px 8px 28px whitesmoke;
+  }
+  
+  .rectangle {
+    width: 450px;
+    height: 150px;
+    background: rgb(250, 105, 18);
+    background: linear-gradient(
+      90deg,
+      rgba(250, 105, 18, 1) 0%,
+      rgba(42, 200, 184, 1) 15%,
+      rgba(167, 219, 216, 1) 100%
+    );
+  }
+  
+  .rec {
+    width: 350px;
+    height: 50px;
+    position: absolute;
+    right: 5%;
+    background: rgb(250, 105, 18);
+    background: linear-gradient(
+      90deg,
+      rgba(250, 105, 18, 1) 52%,
+      rgba(42, 200, 184, 0.7010154403558299) 92%,
+      rgba(167, 219, 216, 1) 100%
+    );
+  }
+  
+  p {
+    font-size: 1.5rem;
+  }
+  
+  article {
+    margin: 1em;
+    padding: 2em;
+    max-width: 500px;
+    position: absolute;
+    top: 30%;
+    z-index: -1;
+  }
+  
