@@ -1,0 +1,45 @@
+:root {
+    background: lightcoral;
+  }
+  
+  body {
+    margin: 1em;
+    padding: 2em;
+    background: indianred;
+  }
+  
+  header {
+    margin: 1em;
+    padding: 2em;
+    height: 1100px;
+    background-image: url("/2019/aug/10/Space-12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: luminosity;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: white;
+    mix-blend-mode: difference;
+    background: lightgreen;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .container {
+    max-width: 500px;
+    background: whitesmoke;
+    padding: 20px;
+    mix-blend-mode: multiply;
+    overflow: hidden;
+  }
+  
+  .main-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+  
