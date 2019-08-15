@@ -1,0 +1,60 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 4em;
+}
+
+img {
+  width: 100%;
+}
+
+.col {
+  padding: 2.5em;
+  border-top: 2px solid #dfdfdf;
+  border-left: 2px solid #dfdfdf;
+}
+
+.second-col {
+  padding-top: 25em;
+}
+
+.third-col {
+  padding-top: 10em;
+}
+
+.fourth-col {
+  padding-top: 15em;
+}
+
+.logo {
+  font-size: 1.5rem;
+  position: absolute;
+  left: 5%;
+  top: 3%;
+}
+
+nav {
+  position: absolute;
+  right: 5%;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+nav li {
+  padding: 1em;
+}
+
+.hours {
+  color: red;
+}
