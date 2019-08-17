@@ -1,20 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:500,800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
+  font-family: "Raleway", sans-serif;
 }
 
-.logo {
-  font-size: 3rem;
-  color: whitesmoke;
+p {
+  font-size: 0.9rem;
+}
 
-  background: blue;
+h2 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: whitesmoke;
 }
 
 header {
+  display: grid;
+  grid-template-rows: 250px 250px 250px;
   margin: 0;
   padding: 0;
   background-image: url("https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 80% 90%;
 }
 
 .container-1 {
@@ -29,24 +49,47 @@ header {
 
 .container-3 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
 }
 
 img {
   width: 100%;
 }
 
+.col {
+  background: blue;
+  margin: 0;
+}
+
+.col p {
+  color: whitesmoke;
+}
+
+.col h2 {
+  color: whitesmoke;
+}
+
+.col-1 {
+  font-size: 1.7rem;
+  font-weight: BOLD;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .col-2 {
-  border-right: 1px solid blue;
+  background: transparent;
+  border-right: 0.5px solid blue;
 }
 
 .col-3 {
-  border-right: 1px solid blue;
-  border-bottom: 1px solid blue;
+  background: transparent;
+  border-right: 0.5px solid blue;
 }
 
 .col-4 {
-  border-right: 1px solid blue;
+  background: transparent;
 }
 
 .col-5 {
@@ -55,30 +98,90 @@ img {
 
 .col-6 {
   background: blue;
+  border-left: 0.3px solid whitesmoke;
+  border-bottom: 0.3px solid whitesmoke;
 }
 
 .col-7 {
   background: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
 }
 
-h2 {
-  font-size: 4rem;
-  color: whitesmoke;
+.col-8 {
+  background: transparent;
+  border-top: 0.5px solid blue;
+}
+.col-9 {
+  border-left: 1px solid blue;
+  background: transparent;
+  border-top: 0.5px solid blue;
+}
+
+.col-10 {
+  background: transparent;
+  border-left: 1px solid blue;
+}
+
+.col-11 {
+  background: blue;
+}
+
+.col-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+.col-13 {
+  padding: 2em;
+}
+
+.col-14 {
+  padding: 2em;
+}
+
+.col-15 {
+  padding: 2em;
+}
+
+.col-16 {
+  padding: 2em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
 }
 
 nav ul {
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 0;
+  padding: 0;
+  padding-top: 2em;
+  text-align: center;
 }
 
 nav li {
   color: whitesmoke;
   padding: 1em;
+  font-size: 0.7rem;
 }
 
-nav {
-  text-align: center;
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
 }
 
 button {
@@ -88,4 +191,14 @@ button {
   background: transparent;
   border: 1px solid whitesmoke;
   margin: 0.5em;
+}
+
+.box {
+  max-width: 300px;
+}
+
+.line {
+  width: 100%;
+  height: 0.5px;
+  background: whitesmoke;
 }
