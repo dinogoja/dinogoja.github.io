@@ -1,0 +1,91 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-size: 3rem;
+  color: whitesmoke;
+
+  background: blue;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+}
+
+.container-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.container-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
+
+.container-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+img {
+  width: 100%;
+}
+
+.col-2 {
+  border-right: 1px solid blue;
+}
+
+.col-3 {
+  border-right: 1px solid blue;
+  border-bottom: 1px solid blue;
+}
+
+.col-4 {
+  border-right: 1px solid blue;
+}
+
+.col-5 {
+  background: blue;
+}
+
+.col-6 {
+  background: blue;
+}
+
+.col-7 {
+  background: blue;
+}
+
+h2 {
+  font-size: 4rem;
+  color: whitesmoke;
+}
+
+nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+nav li {
+  color: whitesmoke;
+  padding: 1em;
+}
+
+nav {
+  text-align: center;
+}
+
+button {
+  padding: 0.8em;
+  font-size: 1rem;
+  color: whitesmoke;
+  background: transparent;
+  border: 1px solid whitesmoke;
+  margin: 0.5em;
+}
