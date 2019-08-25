@@ -1,0 +1,30 @@
+:root {
+    font-size: 2vw;
+  }
+  
+  html,
+  body {
+    background: lightblue;
+  }
+  
+  header {
+    background: lightcoral;
+    margin: 2em;
+    padding: 2em;
+  }
+  
+  h1 {
+    font-size: 7rem;
+    mix-blend-mode: screen;
+    color: aquamarine;
+  }
+  
+  main {
+    margin: 2em;
+    padding: 2em;
+  }
+  
+  .logo {
+    font-size: 2rem;
+  }
+  
