@@ -1,0 +1,18 @@
+:root {
+    background: lightcyan;
+  }
+  
+  h1 {
+    font-size: 7rem;
+  }
+  
+  p {
+    font-size: 1.5rem;
+  }
+  
+  .line {
+    width: 800px;
+    height: 20px;
+    background: yellow;
+  }
+  
