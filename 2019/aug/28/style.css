@@ -1,0 +1,29 @@
+:root {
+    background: lavenderblush;
+  }
+  
+  header {
+    margin: 1em;
+    padding: 2em;
+  }
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  main {
+    margin: 1em;
+    padding: 2em;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-gap: 3em;
+  }
+  
+  h1 {
+    font-size: 8rem;
+    color: red;
+  }
+  
