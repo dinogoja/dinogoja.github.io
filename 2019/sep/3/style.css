@@ -1,0 +1,47 @@
+:root {
+    background: lightgreen;
+    color: rgb(105, 210, 231);
+    color: radial-gradient(
+      circle,
+      rgba(105, 210, 231, 1) 15%,
+      rgba(172, 220, 216, 1) 41%,
+      rgba(221, 160, 100, 1) 57%,
+      rgba(243, 134, 48, 1) 82%,
+      rgba(224, 228, 204, 1) 100%
+    );
+  }
+  
+  body {
+    margin: 1em;
+    padding: 1em;
+  }
+  
+  h1 {
+    font-size: 11rem;
+  }
+  
+  p {
+    font-size: 2rem;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  nav {
+    position: absolute;
+    right: 5%;
+    top: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  nav li {
+    padding: 1em;
+  }
+  
