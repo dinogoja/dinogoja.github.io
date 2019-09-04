@@ -1,0 +1,26 @@
+:root {
+    background: powderblue;
+  }
+  
+  html,
+  body {
+    margin: 1em;
+    padding: 2em;
+  }
+  
+  .logo {
+    font-size: 2rem;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 0;
+    grid-column-gap: 1em;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
