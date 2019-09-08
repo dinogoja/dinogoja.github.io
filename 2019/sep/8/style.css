@@ -1,0 +1,17 @@
+:root {
+    background: papayawhip;
+  }
+  
+  body {
+    margin: 1em;
+    padding: 2em;
+    background: palevioletred;
+  }
+  
+  h1 {
+    font-size: 9rem;
+    background-blend-mode: screen;
+    color: yellow;
+    filter: blur(9px);
+  }
+  
