@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Italianno&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("https://images.unsplash.com/photo-1505764761634-1d77b57e1966?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+.logo {
+  background: black;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 2rem;
+  padding: 0.5em;
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+img {
+  width: 40%;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  color: brown;
+  font-size: 3rem;
+}
+
+.intro {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: 50%;
+  margin-top: -50px;
+}
+
+.coffee {
+  display: flex;
+  justify-content: center;
+  margin-top: 23em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 12em;
+}
+
+.inner-container {
+  width: 700px;
+  font-size: 1.5rem;
+  font-style: italic;
+
+  text-align: justify;
+}
+
+span {
+  font-family: "Italianno", cursive;
+  font-size: 8rem;
+}
