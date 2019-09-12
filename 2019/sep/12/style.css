@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: blanchedalmond;
+}
+
+header {
+    margin: 1em;
+    padding: 2em;
+}
+
+h1 {
+    font-size: 8rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
