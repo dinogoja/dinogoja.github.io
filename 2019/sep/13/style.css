@@ -1,0 +1,25 @@
+:root {
+    background: indianred;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: black;
+    opacity: .5;
+}
+
+h1 {
+    font-size: 7rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
