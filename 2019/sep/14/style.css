@@ -1,0 +1,24 @@
+:root {
+    background: linear-gradient(purple, red);
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 1em;
+    padding: 2em;
+}
+
+main {
+    margin: 1em;
+    padding: 2em;
+}
+
+footer {
+    margin: 1em;
+    padding: 2em;
+}
