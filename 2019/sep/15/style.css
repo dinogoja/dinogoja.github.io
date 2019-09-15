@@ -1,0 +1,14 @@
+:root  {
+    background: linear-gradient(red, silver);
+    background-repeat: no-repeat;
+}
+
+header {
+    margin: 1em;
+    padding: 2em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 8rem;
+}
