@@ -1,0 +1,57 @@
+:root {
+    background: blue;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    background: linear-gradient(blue, whitesmoke);
+    background-repeat: no-repeat;
+  }
+  
+  /* Mobile first queries */
+  
+  /* Larger than mobile */
+  @media (min-width: 400px) {
+    body {
+      background: linear-gradient(purple, white);
+    }
+  }
+  
+  /* Larger than phablet */
+  @media (min-width: 550px) {
+    body {
+      background: linear-gradient(green, white);
+    }
+  }
+  
+  /* Larger than tablet */
+  @media (min-width: 750px) {
+    body {
+      background: linear-gradient(black, white);
+    }
+  }
+  
+  /* Larger than desktop */
+  @media (min-width: 1000px) {
+    body {
+      background: linear-gradient(yellow, white);
+    }
+  }
+  
+  /* Larger than Desktop HD */
+  @media (min-width: 1200px) {
+    body {
+      background: linear-gradient(orange, whitesmoke);
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
