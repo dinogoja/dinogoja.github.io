@@ -19,3 +19,8 @@ header {
     justify-content: space-around;
 
 }
+
+img {
+    width: 100%;
+    box-sizing: border-box;
+}
