@@ -1,5 +1,6 @@
 :root {
     background: linear-gradient(magenta, black);
+    background-repeat: no-repeat;
 }
 
 h1 {
