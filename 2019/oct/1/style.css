@@ -1,0 +1,12 @@
+:root {
+    background: linear-gradient(magenta, black);
+}
+
+h1 {
+    font-size: 7rem;
+    color: whitesmoke;
+}
+
+body {
+    padding: 3em;
+}
