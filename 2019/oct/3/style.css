@@ -1,0 +1,63 @@
+:root {
+    background: silver;
+    font-size: 2vw;
+  }
+  
+  body {
+    margin: 0;
+    padding; 0;
+  }
+  
+  header {
+    margin: 1em;
+    padding: 2em;
+  }
+  
+  main {
+    margin: 1em;
+    padding: 2em;
+  }
+  
+  footer {
+    margin: 1em;
+    padding: 2em;
+  }
+  
+  h1 {
+    font-size: 5rem;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 5%;
+    top: 0.5em;
+  }
+  
+  .container {
+    margin: 2em;
+    padding: 2em;
+    background: linear-gradient(silver, white);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    padding: 1em;
+    margin: 1em;
+  }
+  
+  p {
+    font-size: 0.6rem;
+  }
+  
+  .line {
+    position: absolute;
+    left: 50%;
+    width: 50px;
+    height: 1000px;
+    background: gold;
+    transform: skewY(20deg);
+    transform: rotate(20deg);
+    z-index: -1;
+    
+  }
