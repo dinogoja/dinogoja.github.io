@@ -1,0 +1,13 @@
+:root {
+    background: linear-gradient(red, whitesmoke);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 5rem;
+    color: silver;
+}
