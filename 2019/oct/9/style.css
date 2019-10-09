@@ -1,0 +1,30 @@
+:root {
+    background: linear-gradient(purple, red);
+}
+
+header {
+    background: black;
+    margin: 1em;
+    padding: 2em;
+}
+
+h1 {
+    font-size: 7rem;
+    color: purple;
+}
+
+main {
+    margin: 1em;
+    padding: 2em;
+}
+
+footer {
+    margin: 1em;
+    padding: 2em;
+}
+
+.logo {
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: whitesmoke;
+}
