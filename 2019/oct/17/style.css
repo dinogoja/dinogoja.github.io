@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Long+Cang&display=swap");
+
+:root {
+  background: linear-gradient(lightblue, silver);
+  background-repeat: no-repeat;
+}
+
+header {
+  margin: 1em;
+  padding: 2em;
+}
+
+main {
+  margin: 1em;
+  padding: 2em;
+}
+
+footer {
+  margin: 1em;
+  padding: 2em;
+}
+
+h1 {
+  font-family: "Long Cang", cursive;
+  font-size: 6rem;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 3rem;
+  position: absolute;
+  left: 5%;
+  top: 0.5em;
+}
+
+p {
+  font-size: 1.3rem;
+  font-weight: 100;
+  padding: 2em;
+}
