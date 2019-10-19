@@ -1,0 +1,28 @@
+:root {
+    background: radial-gradient(white, blue);
+    background-repeat: no-repeat;
+  }
+  
+  body {
+    margin: 2em;
+    padding: 2em;
+    background-image: url(https://images.unsplash.com/photo-1571434798385-3c8988ae2f65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1906&q=80);
+    background-repeat: no-repeat;
+    background-image: cover;
+    mix-blend-mode: screen;
+    color: blue;
+    opacity: 0.4;
+  }
+  
+  h1 {
+    font-size: 6rem;
+  }
+  
+  .container {
+    margin: 1em;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+  }
+  
