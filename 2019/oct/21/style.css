@@ -1,0 +1,14 @@
+:root {
+    background: lightcyan;
+  }
+  
+  body {
+    background: whitesmoke;
+    margin: 2em;
+    padding: 2em;
+  }
+  
+  h1 {
+    font-size: 5rem;
+  }
+  
