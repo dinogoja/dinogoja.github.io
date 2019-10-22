@@ -1,0 +1,11 @@
+
+
+
+.btn-gradient {
+    background: radial-gradient(purple, lightgray);
+}
+
+
+.bg-gradient {
+    background: linear-gradient(lightgray, purple);
+}
