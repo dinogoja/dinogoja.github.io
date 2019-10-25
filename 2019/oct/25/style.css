@@ -1,0 +1,31 @@
+body {
+    background: radial-gradient(magenta, gray);
+    background-repeat: no-repeat;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 5%;
+    top: 0.5em;
+  }
+  
+  header {
+    margin: 1em;
+    padding: 2em;
+  }
+  
+  main {
+    margin: 1em;
+    padding: 2em;
+  }
+  
+  footer {
+    margin: 1em;
+    padding: 2em;
+  }
+  
+  .carousel {
+    width: 500px;
+    height: 600px;
+  }
+  
