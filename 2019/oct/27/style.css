@@ -1,0 +1,38 @@
+:root {
+    background: aquamarine;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1572205837903-0daad8519fb4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 4em;
+}
+
+h1 {
+    font-size: 8rem;
+    color: whitesmoke;
+    margin: 2em;
+}
+
+
+.logo {
+    position: absolute;
+    left: 5%;
+    top: .5em;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    padding: 3em;
+}
+
+footer {
+    padding: 3em;
+}
