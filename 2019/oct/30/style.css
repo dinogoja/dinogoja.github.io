@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(to bottom left, whitesmoke 60%, gray 40%);
+    background-repeat: no-repeat;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar li {
+    padding: 1em;
+
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: .5em;
+}
+
+h1 {
+    font-size: 8rem;
+}
