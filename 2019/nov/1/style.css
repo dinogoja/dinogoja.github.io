@@ -1,0 +1,14 @@
+body {
+    background: linear-gradient(70deg, blue 20%, silver 80%);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 7rem;
+    color: whitesmoke;
+    font-weight: 900;
+}
+
+header {
+    margin: 5em;
+}
