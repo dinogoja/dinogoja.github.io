@@ -1,0 +1,20 @@
+body {
+    background: radial-gradient(blue 10%, silver 90%);
+    background-repeat: no-repeat;
+}
+
+header {
+    margin: 1em;
+    padding: 2em;
+}
+
+main {
+    margin: 1em;
+    padding: 2em;
+   
+}
+
+main p {
+    display: flex;
+    justify-content: space-around;
+}
