@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(10deg, purple 30%, silver 70%);
+    background-repeat: no-repeat;
+}
+
+header {
+    margin: 1em;
+    padding: 2em;
+}
+
+h1 {
+    font-size: 6rem;
+    color: aquamarine;
+}
+
+main {
+    margin: 1em;
+    padding: 2em;
+}
+
+footer {
+    margin: 1em;
+    padding: 2em;
+}
+
+.logo {
+    font-size: 1.9rem;
+    font-weight: bold;
+}
