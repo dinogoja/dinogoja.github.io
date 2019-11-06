@@ -1,0 +1,27 @@
+body {
+    background: radial-gradient(green, silver 20%);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+header {
+    margin: 2em;
+    padding: 2em;
+}
+
+main {
+    margin: 2em;
+    padding: 2em;
+}
+
+footer {
+    margin: 2em;
+    padding: 2em;
+}
