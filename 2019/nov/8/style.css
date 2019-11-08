@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(10deg, whitesmoke 90%, blue 10%);
+    background-repeat: no-repeat;
+}
+header {
+    margin: 4em;
+    padding: 4em;
+    background-image: url(https://images.unsplash.com/photo-1573146792915-adc91b49128a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+footer {
+    margin: 2em;
+    padding: 2em;
+}
