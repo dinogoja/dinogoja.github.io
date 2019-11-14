@@ -1,0 +1,8 @@
+:root {
+    background: linear-gradient(15deg, whitesmoke 30%, purple 70%);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 7rem;
+}
