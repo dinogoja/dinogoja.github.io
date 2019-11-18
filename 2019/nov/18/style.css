@@ -1,0 +1,22 @@
+body {
+    border: 5px solid blue;
+    margin: 1em;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+    padding: 2em;
+}
+
+h1 {
+    font-size: 9rem;
+    padding: 1em;
+}
+
+
+header img {
+    width: 60%;
+}
