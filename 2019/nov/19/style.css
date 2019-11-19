@@ -1,0 +1,34 @@
+body {
+    background: linear-gradient(15deg, whitesmoke 80%, white 20%);
+}
+
+.container {
+    box-shadow: 3px 5px 9px gray;
+    
+}
+
+h1 {
+    font-size: 11rem;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+main  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    padding: 1em;
+}
+
+footer {
+    background: pink;
+    padding: 1em;
+}
+
+header {
+    background-image: linear-gradient(pink, purple), url(https://images.unsplash.com/photo-1574170240473-5733a5b43a3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80);
+    padding: 1em;
+    background-blend-mode: screen, difference, lighten;
+}
