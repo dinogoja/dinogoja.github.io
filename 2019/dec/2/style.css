@@ -1,0 +1,8 @@
+body {
+    background: radial-gradient(whitesmoke, black, purple);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 18rem;
+}
