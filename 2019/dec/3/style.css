@@ -1,0 +1,9 @@
+body {
+    background: radial-gradient(whitesmoke, orange);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size:  23rem;
+    color: white;
+}
