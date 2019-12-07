@@ -1,0 +1,19 @@
+body {
+    font-size: 2.5vw;
+    background: radial-gradient(red, whitesmoke);
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 8vw;
+    color: white;
+}
+
+.yellow {
+    background: yellow;
+    padding: .5em;
+}
