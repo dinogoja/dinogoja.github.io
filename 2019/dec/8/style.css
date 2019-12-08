@@ -1,0 +1,28 @@
+body {
+    background: radial-gradient(white, orange);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 16rem;
+    transform: rotate(15deg);
+}
+
+
+h2 {
+    font-size: 6rem;
+    transform: rotate(15deg);
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+.red {
+    background: linear-gradient(whitesmoke, orange, red);
+    padding: 1em;
+}
+
+img {
+    width: 100%;
+}
