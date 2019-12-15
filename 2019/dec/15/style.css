@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(whitesmoke, black);
+    padding: 3em;
+}
+
+
+main {
+    margin: 2em;
+    padding: 2em;
+}
+
+img {
+    width: 100%;
+    transform: rotate(15deg);
+  
+}
+
+
+div {
+    padding: 1em;
+    width: 1000px;
+    height: 100px;
+    background-color: red;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+
+
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green; transform: rotate(90deg);}
+  }
