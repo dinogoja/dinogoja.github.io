@@ -1,0 +1,17 @@
+body {
+    font-size: 3vw;
+    padding: 2em;
+}
+
+div {
+    animation-name: colors;
+    animation-duration: 12s;
+}
+
+@keyframes colors {
+    0% {background: red;}
+    15% {font-size: 15rem;}
+    50% {transform: scale(2);}
+    75% {transform: rotate(35deg);}
+    100% {background: yellow;}
+}
