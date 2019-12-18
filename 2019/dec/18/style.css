@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(whitesmoke, pink);
+    font-size: 3vw;
+    padding: 3em;
+    
+}
+
+h1 {
+    font-size: 12rem;
+}
+
+img {
+    width: 100%;
+}
+
+div {
+    background: linear-gradient(pink, whitesmoke);
+    animation-name: ex;
+    animation-duration: 20s;
+}
+
+
+@keyframes ex {
+    0% {background: white;}
+    25% {background: pink;}
+    50% {
+        background: white;
+    }
+    75% {background: pink;}
+    100% {transform: scale(2);}
+}
