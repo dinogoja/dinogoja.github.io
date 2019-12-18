@@ -11,6 +11,8 @@ h1 {
 
 img {
     width: 100%;
+    animation-name: img;
+    animation-duration: 20s;
 }
 
 div {
@@ -28,4 +30,15 @@ div {
     }
     75% {background: pink;}
     100% {transform: scale(2);}
+}
+
+
+@keyframes img {
+    0% {background: white;}
+    25% {background: pink;}
+    50% {
+        background: white;
+    }
+    75% {background: pink;}
+    100% {transform: rotate(25deg);}
 }
