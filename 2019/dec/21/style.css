@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(whitesmoke, yellow);
+    padding: 4em;
+    font-size: 3vw;
+}
+
+h1 {
+    font-size: 13rem;
+}
+
+img {
+    width: 100%;
+}
+
+
+div {
+    animation-name: natale;
+    animation-duration: 25s;
+}
+
+@keyframes natale {
+    0% {background: aqua;}
+    10% {background: white;}
+    30% {background: aqua;}
+    50% {background: white;}
+    70% {background: aqua;}
+    80% {background: white;}
+    100% {transform: scale(2);}
+    100% {transform: rotate(25deg);}
+}
