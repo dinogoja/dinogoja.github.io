@@ -1,0 +1,19 @@
+body {
+    background: repeating-linear-gradient(whitesmoke, gray);
+}
+
+
+.future {
+    animation-name: future;
+    animation-duration: 43s;
+}
+
+
+    @keyframes future {
+        0% {background: white; color: pink;}
+        25% {background: black; color: pink;}
+        50% {background: white; color: black;}
+        75% {background: black; color: pink;}
+        100% {background: white; color: black; transform: skew(20deg);}
+        100% {transform: scale(2);}
+}
