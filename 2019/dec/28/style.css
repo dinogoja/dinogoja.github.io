@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(whitesmoke, red);
+    background-repeat: no-repeat;
+    font-size: 16rem;
+    padding: 3em;
+}
+
+h1 {
+    font-size: 9rem;
+}
+
+
+.future {
+    animation-name: future;
+    animation-duration: 43s;
+}
+
+
+    @keyframes future {
+        0% {background: white; color: pink;}
+        
+        100% {transform: scale(2);}
+}
