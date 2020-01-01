@@ -9,7 +9,7 @@ div {
 }
 
 @keyframes iso {
-    0% {background: linearGradient(white, pink)}
-    100% {background: linearGradient(pink, white)}
+    0% {background: linear-gradient(white, pink)}
+    100% {background: linear-gradient(pink, white)}
    
 }
