@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(blue, yellow);
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    width: 100%;
+
+}
+
+h1 {
+    font-size: 66rem;
+}
+
+div {
+    animation-name: iso;
+    animation-duration: 45s;
+}
+
+@keyframes iso {
+    0% {background: linear-gradient(white, blue)}
+    50% {transform: rotate(125deg);}
+    100% {background: linear-gradient(blue, white)}
+    100% {transform: scale(6);}
+   
+}
