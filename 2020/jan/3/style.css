@@ -2,7 +2,7 @@ body {
     background: linear-gradient(blue, yellow);
     background-repeat: no-repeat;
     color: whitesmoke;
-    width: 100%;
+   
 
 }
 
@@ -10,9 +10,10 @@ h1 {
     font-size: 66rem;
 }
 
-div {
+div .well {
     animation-name: iso;
     animation-duration: 45s;
+    
 }
 
 @keyframes iso {
