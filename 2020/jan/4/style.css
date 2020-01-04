@@ -1,7 +1,7 @@
 body {
-    background: linear-gradient(blue, yellow);
+    background: linear-gradient(whitesmoke, yellow);
     background-repeat: no-repeat;
-    color: whitesmoke;
+    color: red;
    }
 
 h1 {
@@ -15,8 +15,9 @@ div .well {
 
 @keyframes iso {
     0% {background: linear-gradient(white, blue)}
-    50% {transform: rotate(125deg);}
-    100% {background: linear-gradient(blue, white)}
-    100% {transform: scale(6);}
+    50% {transform: rotate(360deg);}
+    100% {background: radial-gradient(blue, white)}
+    100% {transform: scale(10);}
+    100% {opacity: .01;}
    
 }
