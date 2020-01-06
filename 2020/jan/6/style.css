@@ -1,0 +1,11 @@
+body {
+
+    padding: 2em;
+    background: lightpink;
+}
+
+h1 {
+    font-size: 88rem ;
+    opacity: .5;
+    text-shadow: black 25px 26px 19px;
+}
