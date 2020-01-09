@@ -13,3 +13,16 @@ H1 {
 
     text-shadow: yellowgreen 15px 15px 62px;
 }
+
+.well {
+    animation-name: animal;
+    animation-duration: 25s;
+    padding: 1em;
+}
+
+@keyframes animal {
+    0% {background: red;}
+    50% {background: yellow;}
+    50% {color: yellow;}
+    100% {background: red;}
+}
