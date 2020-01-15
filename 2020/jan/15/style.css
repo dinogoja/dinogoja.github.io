@@ -16,6 +16,7 @@ h1  {
 .well {
     animation-name: billy;
     animation-duration: 22s;
+    animation-fill-mode: backwards;
     
 }
 
@@ -31,6 +32,19 @@ h1  {
 }
 
 .bubble {
+    animation-name: bubble;
+    animation-duration: 22s;
     width: 900px;
     height: 900px;
 }
+
+@keyframes bubble {
+    
+    10% {
+    opacity: 1;
+    }
+    100% {
+    transform: translateY(96px) scaleY(2);
+    opacity: 0.01;
+    }
+  }
