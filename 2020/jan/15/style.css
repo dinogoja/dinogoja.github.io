@@ -29,3 +29,8 @@ h1  {
     90% {transform: rotate(60deg);}
     
 }
+
+.bubble {
+    width: 900px;
+    height: 900px;
+}
