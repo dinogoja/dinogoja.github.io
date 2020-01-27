@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(red, pink 30%);
+    background-repeat: no-repeat;
+    font-size: 2vw;
+    padding: 5em;
+
+}
+
+
+h1 {
+    color: blue;
+    font-size: 55rem;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: font;
+    animation-duration: 10s;
+}
+
+
+@keyframes font {
+    0% {color: red; transform: scale(2);}
+    30% {color: white; transform: rotate(360deg);}
+    60% {color: yellow; transform: scale(-1);}
+    100% {color: wheat; transform: scale3d(3);}
+}
