@@ -1,0 +1,19 @@
+body {
+    padding: 5em;
+    background: lightcoral;
+    font-size: 3vw;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 50rem;
+    box-shadow: whitesmoke 20px 20px 20px 500px;
+}
+
+img {
+    width: 500%;
+}
+
+main {
+    overflow: hidden;
+}
