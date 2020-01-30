@@ -1,0 +1,28 @@
+body {
+    padding: 5em;
+    background: fuchsia;
+    font-size: 3vw;
+    overflow: hidden;
+    animation-name: bg;
+    animation-duration: 5s;
+}
+
+h1 {
+    font-size: 30rem;
+    box-shadow: whitesmoke 20px 20px 20px 500px;
+    padding: 2em;
+}
+
+img {
+    width: 300%;
+}
+
+main {
+    overflow: hidden;
+    
+}
+
+@keyframes bg {
+    0% {background: white;}
+    50% {background: black;}
+}
