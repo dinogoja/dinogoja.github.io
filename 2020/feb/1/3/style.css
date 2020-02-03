@@ -1,0 +1,30 @@
+body {
+    padding: 5em;
+    background: mediumspringgreen;
+    font-size: 3vw;
+    overflow: hidden;
+    animation-name: bg;
+    animation-duration: 7s;
+}
+
+h1 {
+    font-size: 20rem;
+    box-shadow: whitesmoke 20px 20px 20px 100px;
+    padding: 2em;
+    
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    overflow: hidden;
+    
+}
+
+@keyframes bg {
+    0% {background: yellow;}
+    50% {transform: scale(2);}
+    100% {background: linear-gradient(blue, yellow 20%);}
+}
