@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(linen, green);
+    padding: 7em;
+    margin: 2em;
+    font-size: 2vw;
+    overflow: hidden;
+}
+
+
+header {
+    animation-name: head;
+    animation-duration: 22s;
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+}
+h2 {
+    font-size: 32rem;
+    animation-name: go;
+    animation-duration: 22s;
+}
+
+section {
+    animation-name: sec;
+    animation-duration: 22s;
+    background: black;
+    color: blue;
+   
+}
+
+@keyframes sec {
+    0% {transform: rotate(50deg);}
+    25% {transform: scale(2);}
+    50% {background: scroll;}
+    75% {background: white; color: white;}
+    100% {background: purple;}
+}
+
+@keyframes go {
+    0% {transform: rotate(350deg);}
+    25% {transform: scale(3);}
+    50% {background: scroll;}
+    75% {background: white; color: red;}
+    100% {background: purple;}
+}
+
+@keyframes head {
+    0% {transform: rotate(150deg);}
+    25% {transform: scale(2);}
+    50% {background: scroll;}
+    75% {background: white; color: gold;}
+    100% {background: purple;}
+}
