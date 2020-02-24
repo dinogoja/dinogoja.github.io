@@ -1,0 +1,35 @@
+body {
+    font-size: 2vw;
+    background-image: url(https://images.unsplash.com/photo-1582478211308-7c04ea07cba8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80);
+background-size: cover;
+background-repeat: no-repeat;
+padding: 2em;
+color: red;
+animation-name: blade;
+animation-duration: 22s;
+
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 32rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+}
+
+figure img {
+    box-shadow: 100px 100px 100px red;
+    border: 100px black;
+    opacity: .5;
+}
+
+
+@keyframes blade {
+    50% {background-image: url(https://images.unsplash.com/photo-1529160749550-7bae16dc4d7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);}
+}
