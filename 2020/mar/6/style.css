@@ -7,6 +7,10 @@ body {
     background: transparent;
 }
 
+.jumbotron h1 {
+    font-size: 12rem;
+}
+
 main {
     padding: 3em;
 }
@@ -19,4 +23,12 @@ img {
 
 h1 {
     font-size: 23rem;
+    animation-name: diva;
+    animation-duration: 12s;
+}
+
+@keyframes diva {
+    0% {background: black; color: cyan;}
+    50% {color: red;}
+    100% {transform: rotateY(200deg);}
 }
