@@ -22,5 +22,14 @@ img {
 .btn:hover {
     transform: scale(1.5);
     background: black;
+    font-size: 2rem;
+    animation-name: gold;
+    animation-duration: 15s;
+}
+
+@keyframes gold {
+    0% {background: repeating-linear-gradient(45deg, green, #ebf8e1 15%, #44f 40%);}
+    50% {transform: rotate(150deg);}
+    100% {background: purple;}
 }
 
