@@ -11,7 +11,7 @@ img {
 }
 
 .btn {
-    background: repeating-linear-gradient(45deg, green, #ebf8e1 15%, rgb(99, 99, 136) 40%);
+    background: repeating-linear-gradient(45deg, white, #ebf8e1 15%, rgb(99, 99, 136) 40%);
     width: 300px;
     height: 200px;
     font-size: 5rem;
@@ -20,7 +20,7 @@ img {
 }
 
 .btn:hover {
-    transform: scale(1.5);
+    transform: scale(2.5);
     background: black;
     font-size: 2rem;
     animation-name: gold;
