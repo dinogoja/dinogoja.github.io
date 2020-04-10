@@ -1,0 +1,42 @@
+body {
+    background: radial-gradient(blue 60%, gray);
+    margin: 1em;
+    padding: 2em;
+    border: 5px solid black;
+    animation-name: solid;
+    animation-duration: 15s;
+}
+
+h1 {
+    font-size: 11vw;
+}
+
+p {
+    font-size: 1vw;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    background: linear-gradient(red 30%, purple 70%);
+    padding: 2em;
+}
+
+figure img {
+    width: 100%;
+}
+
+.jumbotron  {
+    background: black;
+    color: white;
+    padding: 2em;
+}
+
+@keyframes solid {
+    0% {border-style: dotted;}
+    25% {border: darkorange solid; border-width: 100px; background: red; transform: rotate(250deg);}
+    50% {
+    padding: 30em;
+    }
+}
