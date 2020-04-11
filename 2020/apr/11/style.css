@@ -4,7 +4,7 @@ body {
 }
 
 main {
-    background: rgba(rgb(41, 27, 27), green, blue, alpha);
+    background: rgba(rgb(41, 27, 27));
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 2em;
