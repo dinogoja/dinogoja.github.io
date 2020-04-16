@@ -1,0 +1,25 @@
+body {
+    background: tan;
+    color: white;
+    font-size: 2vw;
+    margin: 2em;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 11rem;
+    color: black;
+}
+
+h2 {
+    font-size: 3rem;
+    color: red;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
