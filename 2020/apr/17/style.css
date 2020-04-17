@@ -1,0 +1,26 @@
+body {
+    margin: 2em;
+    padding: 2em;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgoldenrod;
+    font-size: 3rem;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgoldenrod;
+    font-size: 12rem;
+    font-size: 12vw;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto;
+}
