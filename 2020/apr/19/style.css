@@ -1,0 +1,35 @@
+body {
+    background: black;
+    color: whitesmoke;
+    margin: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+}
+
+
+img {
+    width: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container {
+    background: white;
+    width: 30%;
+  
+}
+
+.inner {
+    background: yellow;
+    clip-path: circle(10% at 90% 0%);
+    transition: clip-path 5s ease-in-out;
+    width: 100%;
+}
+
+
+p {
+    font-size: 1rem;
+}
