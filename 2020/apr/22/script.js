@@ -1,3 +1,8 @@
 function myFunction() {
-    document.getElementsByClassName("demo").innerHTML = "Paragraph changed.";
+    document.getElementById("demo").innerHTML = "Paragraph changed.";
+   }
+
+function mySecond() {
+    var x = document.getElementsByClassName("vevo");
+    x[0].innerHTML = "Paragraph changed.";
    }
