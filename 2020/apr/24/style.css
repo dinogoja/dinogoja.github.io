@@ -1,0 +1,17 @@
+body {
+    background: lavenderblush;
+    font-size: 2vw;
+}
+
+h1 {
+    font-size: 8em;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    margin: 1em;
+    padding: 2em;
+}
