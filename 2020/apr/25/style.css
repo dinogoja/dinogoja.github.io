@@ -1,0 +1,20 @@
+body {
+    background: lightblue;
+    color: lightcoral;
+    margin: 2em;
+}
+
+h1 {
+    font-size: 6em;
+    animation-name: font;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes font {
+    0% {color: lightgoldenrodyellow;}
+    30% {color: gold; transform: scale(3);}
+    60% {color: hotpink;}
+    100% {color: ivory; }
+}
