@@ -1,0 +1,17 @@
+body {
+    background: red;
+    font-size: 2em;
+    margin: 3em;
+    overflow: hidden;
+}
+
+h1 {
+
+    font-size: 6em;
+    animation-name: flash;
+    animation-duration: 13s;
+}
+
+@keyframes flash {
+    50% {color: whitesmoke;}
+}
