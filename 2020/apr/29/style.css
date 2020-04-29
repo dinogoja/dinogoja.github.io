@@ -1,0 +1,27 @@
+body {
+    font-size: 2vw;
+margin: 2em;
+
+}
+
+
+header {
+    
+    background-image: url(https://images.unsplash.com/photo-1475872711536-95ec04b9d290?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1866&q=80);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+
+h1 {
+    font-size: 5em;
+    color: red;
+   
+    
+}
+
+.parent {
+    
+    
+    background-blend-mode: multiply
+}
