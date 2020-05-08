@@ -1,0 +1,16 @@
+body {
+    background: lightcyan;
+    margin: 2em;
+    padding: 2em;
+    font-size: 2vw;
+}
+
+.parent {
+    background: lightpink;
+    margin: 0;
+    padding: 1em;
+}
+
+main {
+    padding: 1em;
+}
