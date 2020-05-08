@@ -5,10 +5,18 @@ body {
     font-size: 2vw;
 }
 
+h1 {
+    font-size: 8em;
+}
+
 .parent {
-    background: lightpink;
+    
     margin: 0;
     padding: 1em;
+    background-image: url(https://images.unsplash.com/photo-1502691876148-a84978e59af8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 main {
