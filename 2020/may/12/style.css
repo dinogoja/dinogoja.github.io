@@ -1,0 +1,13 @@
+body {
+    background: lightcyan;
+    font-size: 2vw;
+    margin: 1em;
+}
+
+
+main {
+    background: red;
+    color: white;
+    filter: grayscale(1);
+    padding: 2em;
+}
