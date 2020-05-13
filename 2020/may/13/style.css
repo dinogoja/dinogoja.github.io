@@ -14,9 +14,17 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     text-shadow: gray 5px 5px 5px;
-    
+    animation-name: gray;
+    animation-duration: 7s;
+
 }
 
 p {
     font-size: 1.425rem;
+}
+
+@keyframes gray {
+    25% {filter: blur(50%);}
+    50% {filter: grayscale(1);}
+    80% {filter: brightness(85%);}
 }
