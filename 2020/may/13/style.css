@@ -1,0 +1,22 @@
+html {
+    font-size: 13px;
+}
+
+
+body {
+    background: palegoldenrod;
+    margin: 2em;
+}
+
+h1 {
+    font-size: 9rem;
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-shadow: gray 5px 5px 5px;
+    
+}
+
+p {
+    font-size: 1.425rem;
+}
