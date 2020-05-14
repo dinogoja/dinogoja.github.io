@@ -1,0 +1,38 @@
+html {
+    font-size: 13px;
+}
+
+
+body {
+    background: goldenrod;
+    margin: 2em;
+    animation-name: gold;
+    animation-duration: 7s;
+}
+
+h1 {
+    font-size: 9rem;
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-shadow: gray 5px 5px 5px;
+    animation-name: gray;
+    animation-duration: 7s;
+
+}
+
+p {
+    font-size: 1.425rem;
+}
+
+@keyframes gray {
+    25% {filter: blur(50%);}
+    50% {filter: grayscale(1);}
+    80% {filter: brightness(85%);}
+}
+
+@keyframes gold {
+    25% {filter: blur(50%);}
+    50% {background: red;}
+    80% {filter: brightness(85%);}
+}
