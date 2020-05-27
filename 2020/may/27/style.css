@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    margin: 2em;
+    background: repeating-linear-gradient(pink, gray, red);
+    
+   
+
+}
+
+header {
+  margin: 2em;
+}
+
+h1 {
+    font-size: 14rem;
+  
+    
+}
+
+main {
+    background: repeating-linear-gradient(gray, silver, green);
+    padding: 2em;
+    box-shadow: pink 20px 10px 10px;
+    background: rgb(13, 109, 153);
+    
+}
+
+main:hover {
+    background: blue;
+color: pink;
+
+}
+
+
+.parent {
+    
+ 
+    background-image: url(https://images.unsplash.com/photo-1590268879537-b58bbb6d2566?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80);
+    -webkit-background-clip: text;
+    background-clip: text;
+   
+    -webkit-text-fill-color: transparent;
+    animation-name: maria;
+    animation-duration: 15s;
+   
+}
+
+
+
+@keyframes maria {
+    20% {transform: scale(2);}
+    70% {transform: rotate(360deg);}
+   
+}
