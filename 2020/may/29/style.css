@@ -1,0 +1,15 @@
+body {
+    margin: 2em;
+    background: black;
+    color: cyan;
+}
+
+h1 {
+    font-size: 12rem;
+}
+
+.flash {
+    width: 600px;
+    height: 90px;
+    background: red;
+}
