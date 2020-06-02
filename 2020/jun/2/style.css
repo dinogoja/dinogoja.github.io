@@ -12,7 +12,9 @@ h1 {
 .flash {
     width: 600px;
     height: 90px;
-    background: #555fff;
+   
+    background: linear-gradient(rgb(191, 253, 247), rgb(189, 235, 238), rgb(186, 217, 230), rgb(183, 200, 221), rgb(179, 182, 213));
+
 }
 
 @media (min-width: 640px) { body {font-size:1rem;} } 
