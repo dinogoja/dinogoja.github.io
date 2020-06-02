@@ -1,0 +1,20 @@
+body {
+    margin: 2em;
+    padding: 3em;
+    color:#555fff;
+    background: linear-gradient(#8a8cba, #cfe9e1, #ffd3c2, #ffd3f2, #ebef9e);
+}
+
+h1 {
+    font-size: 13rem;
+}
+
+.flash {
+    width: 600px;
+    height: 90px;
+    background: #555fff;
+}
+
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} } 
