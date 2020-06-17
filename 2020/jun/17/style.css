@@ -1,0 +1,28 @@
+body {
+    background: lightgoldenrodyellow;
+    color: lightslategray;
+}
+
+h1 {
+    font-size: 11rem;
+}
+
+p {
+    font-size: 1.1rem;
+    padding: 1em;
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+main {
+    margin: 1em;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
