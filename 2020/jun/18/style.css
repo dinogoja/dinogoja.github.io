@@ -1,0 +1,13 @@
+body {
+    background: lightblue;
+    color: lightcoral;
+}
+
+h1 {
+    font-size: 11rem;
+}
+
+.navbar-brand {
+font-weight: bold;
+
+}
