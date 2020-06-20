@@ -1,0 +1,18 @@
+body {
+    background: #959ff2;
+    color: #fff1a2;
+}
+
+main {
+    margin: 2em;
+    padding: 2em;
+}
+
+h1 {
+    font-size: 11rem;
+}
+
+.navbar-brand {
+font-weight: bold;
+
+}
