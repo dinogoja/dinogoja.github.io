@@ -1,0 +1,31 @@
+body {
+    background: #8a9ba1;
+    color: #e0ded8;
+}
+
+header {
+    margin: 4em;
+    padding: 5em;
+    
+}
+
+main {
+    margin: 2em;
+    padding: 2em;
+}
+
+
+
+.navbar-brand {
+font-weight: bold;
+
+}
+
+img {
+    box-shadow: 9px 9px 3px #e0ded8;
+}
+
+footer {
+    margin: 2em;
+    padding: 2em;
+}
