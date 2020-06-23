@@ -1,0 +1,32 @@
+body {
+    background: #4f3ffe;
+    color: #dbebed;
+}
+
+header {
+    margin: 4em;
+    padding: 5em;
+    
+}
+
+main {
+    margin: 2em;
+    padding: 2em;
+}
+
+
+
+.navbar-brand {
+font-weight: bold;
+color: #dbebed;
+
+}
+
+img {
+    box-shadow: 9px 9px 3px #dbebed;
+}
+
+footer {
+    margin: 2em;
+    padding: 2em;
+}
