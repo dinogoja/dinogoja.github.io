@@ -1,6 +1,6 @@
 body {
-    background: #4f3ffe;
-    color: #dbebed;
+    background: #f3e9a0;
+    color: #33dbf2;
 }
 
 header {
@@ -14,7 +14,9 @@ main {
     padding: 2em;
 }
 
-
+.navbar-dark {
+    background: #33dbf2;
+}
 
 .navbar-brand {
 font-weight: bold;
