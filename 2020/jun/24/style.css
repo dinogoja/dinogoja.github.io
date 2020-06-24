@@ -9,10 +9,7 @@ header {
     
 }
 
-main {
-    margin: 2em;
-    padding: 2em;
-}
+
 
 .navbar-dark {
     background: #33dbf2;
@@ -26,6 +23,16 @@ color: #dbebed;
 
 img {
     box-shadow: 9px 9px 3px #dbebed;
+}
+
+section {
+    padding: 2em;
+    background: #33dbf2;
+    color: #f3e9a0;
+}
+
+.offer {
+
 }
 
 footer {
