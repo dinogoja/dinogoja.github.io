@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
 body {
-    background: #f3e9a0;
-    color: #33dbf2;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -9,15 +10,18 @@ header {
     
 }
 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 .navbar-dark {
-    background: #33dbf2;
+    background: #dbebed;
 }
 
-.navbar-brand {
+.navbar-brand a {
 font-weight: bold;
-color: #dbebed;
+color: black;
 
 }
 
