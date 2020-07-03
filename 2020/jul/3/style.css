@@ -2,11 +2,13 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(rgb(217, 203, 229), rgb(217, 174, 219), rgb(215, 144, 209), rgb(212, 112, 199), rgb(207, 75, 189));
+background: #9d87a8;
+color: #dcd6e1;
+
 }
 
 .jumbotron {
-    background: linear-gradient(rgb(179, 249, 246), rgb(177, 225, 229), rgb(174, 201, 213), rgb(170, 178, 197), rgb(165, 155, 181));
+    background: radial-gradient(rgb(179, 249, 246), rgb(177, 225, 229), rgb(174, 201, 213), rgb(170, 178, 197), rgb(165, 155, 181));
 }
 
 
