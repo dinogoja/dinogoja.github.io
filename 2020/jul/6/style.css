@@ -1,0 +1,31 @@
+body {
+    background: #094e4e;
+    color: blanchedalmond;
+}
+
+header {
+    background: #222 ;
+}
+
+.jumbotron {
+    background: black ;
+}
+
+section {
+    margin-top: 3em;
+}
+
+
+footer {
+    padding: 3em;
+}
+
+main {
+    margin: 3em;
+    margin-top: 6em;
+    padding-top: 5em;
+}
+
+.card-body {
+    background: #222222;
+}
