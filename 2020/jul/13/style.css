@@ -28,6 +28,8 @@ main {
     margin-bottom: 13em;
     padding-top: 6em;
     background: lavender;
+    transform: skew(10deg);
+    box-shadow: 0 10px 20px gray;
 }
 
 footer {
