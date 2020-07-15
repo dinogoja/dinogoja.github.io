@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgb(165, 201, 210), rgb(177, 211, 216), rgb(189, 221, 223), rgb(202, 232, 229), rgb(214, 242, 236));
+ 
+}
+
+.jumbotron {
+    background: transparent;
+}
+
+
+h1 {
+    font-size: 13rem;
+    font-weight: bolder;
+    text-shadow: rgba(0,0,0,.1);
+    mix-blend-mode: overlay;
+}
+
+section {
+    margin: 3em;
+}
+
+main {
+    margin-top: 7em;
+    margin-bottom: 13em;
+    padding-top: 6em;
+    background: lavender;
+    transform: skew(10deg);
+    box-shadow: 0 10px 20px gray;
+}
+
+footer {
+    margin: 4em;
+}
