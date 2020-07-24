@@ -9,7 +9,7 @@ body {
 
 .jumbotron {
     background: #111315;
-    display: flex;
+   
     margin-top: 3em;
     padding-top: 5em;
 
@@ -17,9 +17,6 @@ body {
 
 canvas { display: block; }
 
-.flexy {
-    margin: 3em;
-}
 
 
 h1 {
@@ -54,6 +51,3 @@ a:hover {
     color: #F3F3F3;
 }
 
-img {
-    width: 100%;
-}
