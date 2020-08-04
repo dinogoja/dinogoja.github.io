@@ -1,5 +1,8 @@
 html {
     background: blue;
+    animation-name: blue;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
 }
 
 body {
@@ -24,4 +27,12 @@ main {
 }
 img {
     width: 100%;
+}
+
+@keyframes blue {
+    10% {background: linear-gradient(red, blue, pink);}
+    30% {background: linear-gradient(pink, red, blue, orange);}
+    60% {background: linear-gradient(white, blue, pink);}
+    80% {background: linear-gradient(orange, white, red);}
+    100% {background: linear-gradient(purple, blue, pink);}
 }
