@@ -1,0 +1,27 @@
+html {
+    background: blue;
+}
+
+body {
+    background: linear-gradient(#b6b1d6, #bbdfe3, #fbf6c9, #fcd3c7);
+    margin: 4em;
+    padding: 2em;
+}
+
+h1  {
+    font-size: 8rem;
+    color: red;
+    text-decoration: underline blue;
+}
+header {
+    margin-top: 5em;
+    margin-bottom: 6em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 20%;
+}
+img {
+    width: 100%;
+}
