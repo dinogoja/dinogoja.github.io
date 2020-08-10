@@ -20,7 +20,7 @@ h1  {
     text-decoration: underline red;
     animation-name: grosso;
     animation-duration: 10s;
-    animation: 5s infinite;
+    animation: blue 1s infinite;
     
 }
 header {
@@ -67,6 +67,12 @@ img {
 
 @keyframes grosso {
     
-    50% {transform: rotate(90deg);}
+    20% {transform: skew(20deg, 5deg);
+        background: pink;}
+
+        50% {transform: scale(2);}
+
+        80% {transform: skew(-20deg, -5deg);
+            background: blue;}
    
 }
