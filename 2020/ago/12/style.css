@@ -70,6 +70,6 @@ img {
 @keyframes grosso {
     
    50% {transform: scale(2);}
-   80% {transform: rotate(360deg);}
+   80% {transform: rotate(60deg);}
    
 }
