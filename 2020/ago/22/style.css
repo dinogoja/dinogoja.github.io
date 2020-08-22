@@ -9,7 +9,7 @@ header {
  
     margin: 2em;
     padding: 1em;
-    background: linen;
+    background: linear-gradient(rgb(226, 231, 204), rgb(200, 224, 201), rgb(173, 216, 197), rgb(144, 209, 194), rgb(111, 201, 190));
     text-align: center;
 }
 
@@ -48,7 +48,7 @@ main {
     width: 600px;
     margin-bottom: 2em;
     animation-name: one;
-    animation-duration: 5s;
+    animation-duration: 15s;
    
 }
 
@@ -56,7 +56,7 @@ main {
     width: 500px;
     margin-bottom: 2em;
     animation-name: two;
-    animation-duration: 5s;
+    animation-duration: 15s;
    
 }
 
@@ -64,7 +64,7 @@ main {
     width: 400px;
     margin-bottom: 2em;
     animation-name: three;
-    animation-duration: 5s;
+    animation-duration: 15s;
    
 }
 
@@ -72,7 +72,7 @@ main {
     width: 300px;
     margin-bottom: 2em;
     animation-name: four;
-    animation-duration: 5s;
+    animation-duration: 15s;
    
 }
 
@@ -95,7 +95,7 @@ main {
 
 
 @keyframes one {
-    10% {background: red; width: 900px;}
+    10% {background: linear-gradient(rgb(226, 231, 204), rgb(200, 224, 201), rgb(173, 216, 197), rgb(144, 209, 194), rgb(111, 201, 190)); width: 900px;}
 }
 
 @keyframes two {
