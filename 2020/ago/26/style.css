@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-top: 5em;
+    padding-bottom: 5em;
+ 
+    margin: 2em;
+    padding: 1em;
+    background: red;
+    color: white;
+    text-align: center;
+    background-blend-mode: multiply;
+    background-image: url(https://images.unsplash.com/photo-1598448251941-ae4dd47dba33?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+main {
+    margin-top: 5em;
+    padding-top: 5em;
+    margin: 2em;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 3em;
+   
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.line {
+    width: 150px;
+    height: 6px;
+    background: black;
+}
+
+.one {
+    width: 600px;
+    margin-bottom: 2em;
+    animation-name: one;
+    animation-duration: 15s;
+   
+}
+
+.two {
+    width: 500px;
+    margin-bottom: 2em;
+    animation-name: two;
+    animation-duration: 15s;
+   
+}
+
+.three {
+    width: 400px;
+    margin-bottom: 2em;
+    animation-name: three;
+    animation-duration: 15s;
+   
+}
+
+.four {
+    width: 300px;
+    margin-bottom: 2em;
+    animation-name: four;
+    animation-duration: 15s;
+   
+}
+
+@media screen and (max-width: 700px) {
+    .row {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2em;
+    }
+
+    .column {
+        flex: 100%;
+        max-width: 100%;
+        padding: 0 4px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+
+@keyframes one {
+    10% {background: linear-gradient(rgb(226, 231, 204), rgb(200, 224, 201), rgb(173, 216, 197), rgb(144, 209, 194), rgb(111, 201, 190)); width: 900px;}
+}
+
+@keyframes two {
+    20% {background: red; width: 800px;}
+}
+
+@keyframes three {
+    30% {background: red; width: 700px;}
+}
+
+@keyframes four {
+    20% { transform : translateY(0em) }
+    40%   { transform : translateY(9em) }
+    60% { transform : translateY(9em) }
+    80%   { transform : translateY(-9em) }
+}
