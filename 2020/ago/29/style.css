@@ -35,6 +35,20 @@ h1 {
     animation-duration: 15s;
 }
 
+
+.dot {
+    animation-duration: 15s;
+    animation-name: dot;
+    font-size: 6rem;
+}
+
+
+
 @keyframes one {
     50% {width: 900px;}
+}
+
+
+@keyframes dot {
+    50% {font-size: 900px;}
 }
