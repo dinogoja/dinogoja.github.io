@@ -1,0 +1,26 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 2em;
+    padding: 2em;
+    
+}
+
+h1 {
+    font-size: 12rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2em;
+
+}
+
+.circle {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: red;
+    mix-blend-mode: difference;
+}
