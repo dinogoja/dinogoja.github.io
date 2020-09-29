@@ -1,0 +1,41 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 2em;
+    padding: 2em;
+    
+}
+
+h1 {
+    font-size: 12rem;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2em;
+
+}
+
+.circle {
+    position: absolute;
+    top: 2em;
+    right: 3em;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: red;
+    mix-blend-mode: difference;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {font-size: 4rem};
+    p {font-size: 1rem;}
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
