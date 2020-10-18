@@ -55,6 +55,6 @@ body {
   }
   
   @keyframes box {
-    50% {transform: skew(-10deg);}
+    50% {transform: skew(-20deg);}
     75% {background: white;}
   }
