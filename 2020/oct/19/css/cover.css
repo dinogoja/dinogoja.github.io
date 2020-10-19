@@ -109,3 +109,24 @@ body {
   color: rgba(255, 255, 255, .5);
 }
 
+.circle {
+  margin: 30px;
+  width: 1200px;
+  height: 25px;
+  background-color: royalblue;
+  mix-blend-mode: difference;
+}
+
+.circle2 {
+  margin: 30px;
+  width: 900px;
+  height: 25px;
+  background-color: royalblue;
+  mix-blend-mode: difference;
+  animation-name: cerchio;
+  animation-duration: 10s;
+}
+
+@keyframes cerchio {
+  50% {background: #fff}
+}
