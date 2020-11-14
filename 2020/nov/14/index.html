@@ -40,11 +40,11 @@
   function initPixi() {
     app = new PIXI.Application({width: window.innerWidth, height: window.innerHeight});
     document.body.appendChild(app.view);
-    var image = new PIXI.Sprite.from("water.jpg");
+    var image = new PIXI.Sprite.from("857.jpg");
     image.width = window.innerWidth;
     image.height = window.innerHeight;
     app.stage.addChild(image);
-    displacementSprite = new PIXI.Sprite.from("cloud.jpg");
+    displacementSprite = new PIXI.Sprite.from("848.jpg");
     displacementFilter = new PIXI.filters.DisplacementFilter(displacementSprite);
     displacementSprite.texture.baseTexture.wrapMode = PIXI.WRAP_MODES.REPEAT;
     app.stage.addChild(displacementSprite);
@@ -64,5 +64,8 @@
 
 
   </script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/2020/oct/10/js/bootstrap.bundle.min.js"></script>
+
     </body>
     </html>
