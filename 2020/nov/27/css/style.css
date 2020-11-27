@@ -23,3 +23,14 @@
     transform: skewY(14deg);
     transform-origin: bottom right;
   }
+
+  .social-icons ul > li > a {
+    display: block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 100%;
+    font-size: 2rem;
+    line-height: 4rem;
+    height: 4rem;
+    width: 4rem;
+  }
