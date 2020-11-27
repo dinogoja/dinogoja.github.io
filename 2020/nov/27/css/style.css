@@ -1,0 +1,25 @@
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #2ac8b8;
+    opacity: 0.7;
+    z-index: 1;
+  }
+  
+
+  .masthead .masthead-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    min-height: 35rem;
+    height: 100%;
+    background-color: black;
+    transform: skewY(14deg);
+    transform-origin: bottom right;
+  }
