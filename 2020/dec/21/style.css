@@ -6,4 +6,15 @@ body {
 .title {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 11rem;
+}
+
+
+img {
+    max-width: 10%;
+    height: auto;
 }
