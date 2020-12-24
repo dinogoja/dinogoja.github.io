@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(rgb(220, 203, 215), rgb(236, 171, 182), rgb(245, 136, 149), rgb(250, 96, 118), rgb(251, 35, 89));
+}
+
+h1 {
+    font-size: 11rem;
+    mix-blend-mode: overlay;
+}
+
+main {
+    margin: 2em;
+}
+
+.middle {
+    display: grid;
+    grid-template-columns: 1fr 40%;
+    grid-gap: 2em;
+}
+
+img {
+    mix-blend-mode: screen;
+}
