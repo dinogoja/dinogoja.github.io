@@ -1,0 +1,15 @@
+body {
+    background: linear-gradient(blue, white, blue);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5em;
+    padding: 5em;
+}
+
+
+h1 {
+    font-size: 15rem;
+    mix-blend-mode: difference;
+    text-shadow: 10px 10px 10px white;
+    line-height: 50%;
+}
