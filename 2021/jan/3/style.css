@@ -16,7 +16,20 @@ h1 {
     animation-duration: 10s;
 }
 
+.night {
+    font-size: 25rem;
+    mix-blend-mode: difference;
+    text-shadow: 10px 10px 10px white;
+    line-height: 50%;
+    animation-name: night;
+    animation-duration: 10s;
+}
+
 
 @keyframes tit {
     50% {transform: scale(5);}    
+}
+
+@keyframes night {
+    50% {transform: scale(-2);}    
 }
