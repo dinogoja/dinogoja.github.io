@@ -50,7 +50,7 @@ main {
 
 
 @keyframes tit {
-    50% {transform: scale(5) color: red;} 
+    50% {transform: scale(8);} 
     60% {color: blue;}   
 }
 
