@@ -74,7 +74,7 @@ main {
     position: absolute;
     top: 0;
     left: 0;
-    fill: #489202;
+    fill: #021892;
     width: 50vmax;
     z-index: -1;
     animation: move 10s ease-in-out infinite;
