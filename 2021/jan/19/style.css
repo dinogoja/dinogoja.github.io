@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    color: blue;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 11rem;
+}
+
+
+.circle {
+    width: 3px;
+    height: 3px;
+    background: white;
+    animation-name: circle-full;
+    animation-duration: 10s;
+    mix-blend-mode: overlay;
+}
+
+
+@keyframes circle-full {
+    50% {transform: scale(1500);}
+}
