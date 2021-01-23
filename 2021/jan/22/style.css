@@ -27,5 +27,5 @@ h1 {
 
 
 @keyframes circle-full {
-    80% {transform: scale(50);}
+    50% {transform: scale(50);}
 }
