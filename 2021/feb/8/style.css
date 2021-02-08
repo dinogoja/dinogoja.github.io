@@ -1,0 +1,17 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1789&q=80);
+overflow: hidden;
+
+
+}
+
+svg {
+    background: red;
+    mix-blend-mode: difference;
+    animation-name: svganim;
+    animation-duration: 5s;
+}
+
+@keyframes svganim {
+    50% {transform: scale(-5);}
+}
