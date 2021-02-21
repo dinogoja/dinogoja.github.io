@@ -1,0 +1,19 @@
+body {
+    
+  background-image: url(https://images.unsplash.com/photo-1613907145909-4346e61bd57e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1876&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: rgb(160, 41, 92);
+  mix-blend-mode: difference;
+ 
+}
+
+h1 {
+  margin-top: .5em;
+    font-size: 8rem;
+    box-shadow: 3px 3px 30px rgb(0, 110, 255);
+    text-shadow: 3px 3px 3px gray;
+    padding: 0.5em;
+    color: rgb(180, 206, 190);
+}
