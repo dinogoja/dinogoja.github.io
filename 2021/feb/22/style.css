@@ -1,0 +1,9 @@
+body {
+  background-color: blue;
+  color: antiquewhite;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 22rem;
+}
