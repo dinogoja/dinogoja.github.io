@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(9, 255, 0);
+  color: rgb(199, 123, 23);
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 9rem;
+}
+
+
+@media only screen and (max-width: 650px) {
+  h1 {
+font-size: 6rem;
+  }
+}
