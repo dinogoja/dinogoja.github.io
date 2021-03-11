@@ -1,0 +1,19 @@
+body {
+   
+    background: linear-gradient(rgb(194, 219, 54), rgb(187, 172, 122), rgb(168, 125, 169), rgb(131, 76, 212), rgb(2, 10, 254));
+background-size: cover;
+background-repeat: no-repeat;
+margin: 3em;
+padding: 3em;
+
+}
+
+
+
+
+
+h1 {
+    font-size: 15rem;
+    mix-blend-mode: overlay;
+    text-shadow: 3px 3px 3px white;
+}
