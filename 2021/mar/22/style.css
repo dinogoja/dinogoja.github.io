@@ -1,0 +1,23 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1615396027685-ff271f5d6e57?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80);
+}
+
+
+h1 {
+    font-size: 12rem;
+    mix-blend-mode: difference;
+    
+    text-shadow: 10px 10px 10px rgb(233, 115, 111);
+    
+    color: rgb(215, 219, 206);
+}
+
+
+header {
+    margin: 2em;
+    padding: 2em;
+}
+
+.bg-dark {
+   background-color: transparent;
+}
