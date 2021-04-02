@@ -1,0 +1,23 @@
+html {
+	
+	background: linear-gradient(rgb(145, 215, 219), rgb(135, 172, 225), rgb(116, 128, 229), rgb(86, 85, 233), rgb(9, 35, 235));	background-size: cover;
+}
+
+
+
+body {
+	margin: 2em;
+	padding: 0;
+	background-color: transparent;
+	
+}
+
+
+h1 {
+	font-size: 7rem;
+	font-weight: bolder;
+	padding: 0;
+	margin: 0;
+	
+}
+
