@@ -1,0 +1,29 @@
+body {
+font-family: Helvetica;
+background-image: url(https://images.unsplash.com/photo-1621570170697-3ca34feb14aa?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+padding: 2em;
+background-position: center;
+}
+
+h1 {
+    font-size: 15rem;
+    font-weight: bolder;
+    color: red;
+    mix-blend-mode: difference;
+    text-shadow: 3px 3px 30px rgb(0, 217, 255);
+}
+
+
+.circle {
+    position: absolute;
+    top: 2em;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: azure;
+    mix-blend-mode: exclusion;
+}
+
+header {
+    margin: 2em;
+}
