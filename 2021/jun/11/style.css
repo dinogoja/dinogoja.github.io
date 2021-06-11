@@ -1,0 +1,25 @@
+body {
+font-family: Helvetica;
+padding: 2em;
+background-position: center;
+}
+
+#creative {
+    font-size: 15rem;
+    font-weight: bolder;
+    color: red;
+    mix-blend-mode: difference;
+    text-shadow: 3px 3px 30px rgb(218, 158, 81);
+}
+
+
+
+header {
+    margin: 2em;
+}
+
+
+.btn {
+    background-color: aqua;
+    color: black;
+}
