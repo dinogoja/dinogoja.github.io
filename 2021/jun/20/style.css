@@ -1,0 +1,27 @@
+body {
+font-family: Helvetica;
+padding: 2em;
+background-position: center;
+}
+
+#creative {
+    font-size: 15rem;
+    font-weight: bolder;
+    color: red;
+    mix-blend-mode: difference;
+    text-shadow: 3px 3px 30px rgb(218, 158, 81);
+}
+
+
+
+header {
+    margin: 2em;
+    padding: 2em;
+    background-image: url(https://images.unsplash.com/photo-1523734650021-75837a627245?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+}
+
+
+.btn {
+    background-color: aqua;
+    color: black;
+}
